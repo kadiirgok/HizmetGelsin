@@ -38,6 +38,36 @@ Uygulama kodu özellik bazlı olarak `lib/features` altında; API, router, Signa
 
 Android emülatöründe `10.0.2.2` host makineyi ifade eder. Fiziksel cihazda bilgisayarın cihazdan erişilebilen yerel ağ adresini kullanın.
 
+## Firebase ve backend yapılandırması
+
+Repoya girmeyen (gitignore'lu) dosyaları kendi değerlerinizle oluşturun; repoda yalnızca `.example` şablonları bulunur.
+
+### Firebase (mobil)
+
+FlutterFire CLI ile hem `firebase_options.dart` hem `google-services.json` üretilir:
+
+```text
+flutterfire configure
+```
+
+Alternatif olarak örnek şablonları kopyalayıp kendi Firebase proje değerlerinizle doldurun:
+
+- `lib/firebase_options.example.dart` → `lib/firebase_options.dart`
+- `android/app/google-services.example.json` → `android/app/google-services.json`
+  (veya Firebase Console → Proje ayarları → Uygulamalar → Android → `google-services.json` indirip `android/app/` altına koyun)
+
+Bu iki dosya git'e girmez; `firebase.json` (proje/app kimliği) repoda tutulur.
+
+### Backend (.NET)
+
+`appsettings.Example.json` dosyasını `appsettings.json` olarak kopyalayıp kendi değerlerinizle doldurun:
+
+```text
+cp backend/Berbergelsin.Api/appsettings.Example.json backend/Berbergelsin.Api/appsettings.json
+```
+
+Doldurulacak alanlar: `ConnectionStrings:Default` (PostgreSQL bağlantısı), `Jwt:Key`, `Otp:Pepper`, `SmsSettings` ve `Email` SMTP bilgileri. `appsettings.json`, `appsettings.Development.json` ve `appsettings.Production.json` git'e girmez; yalnızca `.Example` şablonu commit edilir.
+
 ## Ortam yapılandırması
 
 `API_BASE_URL`, derleme zamanında `--dart-define` ile değiştirilebilir. Güvenli
