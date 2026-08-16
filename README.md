@@ -2,6 +2,13 @@
 
 BerberGelsin; müşterilerin yakındaki çevrimiçi berberlerden eve hizmet talep etmesini, fiyat teklifi vermesini ve randevuyu canlı takip etmesini sağlayan Flutter uygulamasıdır. Aynı uygulama müşteri, berber ve admin rollerini destekler.
 
+## Proje yapısı
+
+- `berbergelsinmobileapp-main/` — Flutter mobil uygulaması
+- `backend/` — .NET 8 Web API (PostgreSQL, SignalR, Firebase Admin)
+
+Aşağıdaki Flutter ile ilgili komutlar ve yollar aksi belirtilmedikçe `berbergelsinmobileapp-main/` klasörüne göredir.
+
 ## Temel akışlar
 
 - Müşteri: OTP ile giriş, onboarding/KVKK, harita, talep ve teklif, canlı takip, puanlama
@@ -18,12 +25,12 @@ BerberGelsin; müşterilerin yakındaki çevrimiçi berberlerden eve hizmet tale
 - Flutter Map ve OpenStreetMap
 - Güvenli token saklama için Flutter Secure Storage
 
-Uygulama kodu özellik bazlı olarak `lib/features` altında; API, router, SignalR, tema ve ortam yapılandırması `lib/core` altında bulunur.
+Uygulama kodu özellik bazlı olarak `berbergelsinmobileapp-main/lib/features` altında; API, router, SignalR, tema ve ortam yapılandırması `berbergelsinmobileapp-main/lib/core` altında bulunur.
 
 ## Kurulum
 
 1. Flutter SDK'nın uygun sürümünü kurun ve `flutter doctor` çıktısındaki platform eksiklerini giderin.
-2. Proje kökünde bağımlılıkları yükleyin:
+2. Flutter uygulaması klasöründe (`berbergelsinmobileapp-main/`) bağımlılıkları yükleyin:
 
    ```text
    flutter pub get
@@ -52,9 +59,9 @@ flutterfire configure
 
 Alternatif olarak örnek şablonları kopyalayıp kendi Firebase proje değerlerinizle doldurun:
 
-- `lib/firebase_options.example.dart` → `lib/firebase_options.dart`
-- `android/app/google-services.example.json` → `android/app/google-services.json`
-  (veya Firebase Console → Proje ayarları → Uygulamalar → Android → `google-services.json` indirip `android/app/` altına koyun)
+- `berbergelsinmobileapp-main/lib/firebase_options.example.dart` → `berbergelsinmobileapp-main/lib/firebase_options.dart`
+- `berbergelsinmobileapp-main/android/app/google-services.example.json` → `berbergelsinmobileapp-main/android/app/google-services.json`
+  (veya Firebase Console → Proje ayarları → Uygulamalar → Android → `google-services.json` indirip `berbergelsinmobileapp-main/android/app/` altına koyun)
 
 Bu iki dosya git'e girmez; `firebase.json` (proje/app kimliği) repoda tutulur.
 
