@@ -1,0 +1,166 @@
+{
+  "catalogVersion": "1.0.0",
+  "releasedAt": "2026-07-20T00:00:00Z",
+  "categories": [
+    {
+      "stableKey": "plumbing",
+      "displayName": "Tesisat",
+      "sortOrder": 10,
+      "isActive": true,
+      "services": [
+        { "id": "132a0001-0001-4000-8000-000000000001", "stableKey": "plumbing.water-installation", "displayName": "Su Tesisatı", "sortOrder": 10, "isActive": true },
+        { "id": "132a0001-0002-4000-8000-000000000002", "stableKey": "plumbing.drain-unblocking", "displayName": "Tıkanıklık Açma", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "electrical",
+      "displayName": "Elektrik",
+      "sortOrder": 20,
+      "isActive": true,
+      "services": [
+        { "id": "132a0002-0001-4000-8000-000000000001", "stableKey": "electrical.fault-repair", "displayName": "Elektrik Arıza", "sortOrder": 10, "isActive": true },
+        { "id": "132a0002-0002-4000-8000-000000000002", "stableKey": "electrical.lighting-installation", "displayName": "Aydınlatma Montajı", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "repair-maintenance",
+      "displayName": "Tamir & Bakım",
+      "sortOrder": 30,
+      "isActive": true,
+      "services": [
+        { "id": "132a0003-0001-4000-8000-000000000001", "stableKey": "repair-maintenance.furniture-repair", "displayName": "Mobilya Tamiri", "sortOrder": 10, "isActive": true },
+        { "id": "132a0003-0002-4000-8000-000000000002", "stableKey": "repair-maintenance.general-maintenance", "displayName": "Genel Bakım", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "cleaning",
+      "displayName": "Temizlik",
+      "sortOrder": 40,
+      "isActive": true,
+      "services": [
+        { "id": "132a0004-0001-4000-8000-000000000001", "stableKey": "cleaning.home", "displayName": "Ev Temizliği", "sortOrder": 10, "isActive": true },
+        { "id": "132a0004-0002-4000-8000-000000000002", "stableKey": "cleaning.office", "displayName": "Ofis Temizliği", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "moving",
+      "displayName": "Nakliye",
+      "sortOrder": 50,
+      "isActive": true,
+      "services": [
+        { "id": "132a0005-0001-4000-8000-000000000001", "stableKey": "moving.home", "displayName": "Evden Eve Nakliye", "sortOrder": 10, "isActive": true },
+        { "id": "132a0005-0002-4000-8000-000000000002", "stableKey": "moving.partial", "displayName": "Parça Eşya Taşıma", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "auto-service",
+      "displayName": "Oto Servis",
+      "sortOrder": 60,
+      "isActive": true,
+      "services": [
+        { "id": "132a0006-0001-4000-8000-000000000001", "stableKey": "auto-service.periodic-maintenance", "displayName": "Periyodik Bakım", "sortOrder": 10, "isActive": true },
+        { "id": "132a0006-0002-4000-8000-000000000002", "stableKey": "auto-service.tire-change", "displayName": "Lastik Değişimi", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "hair-beauty",
+      "displayName": "Kuaför & Güzellik",
+      "sortOrder": 70,
+      "isActive": true,
+      "services": [
+        { "id": "132a0007-0001-4000-8000-000000000001", "stableKey": "hair-beauty.haircut", "displayName": "Saç Kesimi", "sortOrder": 10, "isActive": true },
+        { "id": "132a0007-0002-4000-8000-000000000002", "stableKey": "hair-beauty.beard-care", "displayName": "Sakal Bakımı", "sortOrder": 20, "isActive": true },
+        { "id": "132a0007-0003-4000-8000-000000000003", "stableKey": "hair-beauty.hair-coloring", "displayName": "Saç Boyama", "sortOrder": 30, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "health-care",
+      "displayName": "Sağlık & Bakım",
+      "sortOrder": 80,
+      "isActive": true,
+      "services": [
+        { "id": "132a0008-0001-4000-8000-000000000001", "stableKey": "health-care.home-care", "displayName": "Evde Bakım", "sortOrder": 10, "isActive": true },
+        { "id": "132a0008-0002-4000-8000-000000000002", "stableKey": "health-care.massage", "displayName": "Masaj", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "private-lessons",
+      "displayName": "Özel Ders",
+      "sortOrder": 90,
+      "isActive": true,
+      "services": [
+        { "id": "132a0009-0001-4000-8000-000000000001", "stableKey": "private-lessons.mathematics", "displayName": "Matematik Dersi", "sortOrder": 10, "isActive": true },
+        { "id": "132a0009-0002-4000-8000-000000000002", "stableKey": "private-lessons.foreign-language", "displayName": "Yabancı Dil Dersi", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "events",
+      "displayName": "Organizasyon",
+      "sortOrder": 100,
+      "isActive": true,
+      "services": [
+        { "id": "132a0010-0001-4000-8000-000000000001", "stableKey": "events.wedding", "displayName": "Düğün Organizasyonu", "sortOrder": 10, "isActive": true },
+        { "id": "132a0010-0002-4000-8000-000000000002", "stableKey": "events.birthday", "displayName": "Doğum Günü Organizasyonu", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "pet-care",
+      "displayName": "Evcil Hayvan",
+      "sortOrder": 110,
+      "isActive": true,
+      "services": [
+        { "id": "132a0011-0001-4000-8000-000000000001", "stableKey": "pet-care.grooming", "displayName": "Pet Kuaförü", "sortOrder": 10, "isActive": true },
+        { "id": "132a0011-0002-4000-8000-000000000002", "stableKey": "pet-care.dog-walking", "displayName": "Köpek Gezdirme", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "garden-landscape",
+      "displayName": "Bahçe & Peyzaj",
+      "sortOrder": 120,
+      "isActive": true,
+      "services": [
+        { "id": "132a0012-0001-4000-8000-000000000001", "stableKey": "garden-landscape.garden-care", "displayName": "Bahçe Bakımı", "sortOrder": 10, "isActive": true },
+        { "id": "132a0012-0002-4000-8000-000000000002", "stableKey": "garden-landscape.landscape-design", "displayName": "Peyzaj Düzenleme", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "computer-technical-service",
+      "displayName": "Bilgisayar & Teknik Servis",
+      "sortOrder": 130,
+      "isActive": true,
+      "services": [
+        { "id": "132a0013-0001-4000-8000-000000000001", "stableKey": "computer-technical-service.computer-repair", "displayName": "Bilgisayar Tamiri", "sortOrder": 10, "isActive": true },
+        { "id": "132a0013-0002-4000-8000-000000000002", "stableKey": "computer-technical-service.network-setup", "displayName": "Ağ Kurulumu", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "home-appliances",
+      "displayName": "Beyaz Eşya",
+      "sortOrder": 140,
+      "isActive": true,
+      "services": [
+        { "id": "132a0014-0001-4000-8000-000000000001", "stableKey": "home-appliances.repair", "displayName": "Beyaz Eşya Tamiri", "sortOrder": 10, "isActive": true },
+        { "id": "132a0014-0002-4000-8000-000000000002", "stableKey": "home-appliances.air-conditioner", "displayName": "Klima Bakımı", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "construction-renovation",
+      "displayName": "İnşaat & Tadilat",
+      "sortOrder": 150,
+      "isActive": true,
+      "services": [
+        { "id": "132a0015-0001-4000-8000-000000000001", "stableKey": "construction-renovation.painting", "displayName": "Boya Badana", "sortOrder": 10, "isActive": true },
+        { "id": "132a0015-0002-4000-8000-000000000002", "stableKey": "construction-renovation.tile", "displayName": "Fayans Döşeme", "sortOrder": 20, "isActive": true }
+      ]
+    },
+    {
+      "stableKey": "other",
+      "displayName": "Diğer",
+      "sortOrder": 160,
+      "isActive": true,
+      "services": [
+        { "id": "132a0016-0001-4000-8000-000000000001", "stableKey": "other.general", "displayName": "Diğer Hizmet", "sortOrder": 10, "isActive": true }
+      ]
+    }
+  ]
+}

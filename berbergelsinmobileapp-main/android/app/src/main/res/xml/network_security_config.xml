@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Network Security Config — DEBUG / TEST builds only.
+  Grants trust to system + user CAs so Cloudflare Tunnel certificates are
+  accepted on MIUI and other strict Android skins.
+  This file is referenced from AndroidManifest via android:networkSecurityConfig.
+-->
+<network-security-config>
+    <!-- Allow cleartext (HTTP) everywhere — mirrors android:usesCleartextTraffic="true" -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Explicit trust domain for the live backend -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api.tivigo.online</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

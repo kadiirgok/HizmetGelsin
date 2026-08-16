@@ -1,0 +1,17 @@
+using System.Net;
+using System.Net.Http.Json;
+using System.Text.Json;
+using Berbergelsin.Api.Data;
+using Berbergelsin.Api.Enums;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Xunit;
+namespace Berbergelsin.Api.Tests;
+public sealed class ClientFavoriteEndpointTests
+{
+ [Fact]public async Task Auth_and_customer_role_required(){using var f=new RequestApiFactory();f.Seed();Assert.Equal(HttpStatusCode.Unauthorized,(await f.CreateClient().GetAsync("/api/client/favorites")).StatusCode);Assert.Equal(HttpStatusCode.Forbidden,(await f.Client(f.BarberUserId,"Berber").GetAsync("/api/client/favorites")).StatusCode);}
+ [Fact]public async Task Add_is_idempotent_and_different_customers_can_favorite(){using var f=new RequestApiFactory();f.Seed();var c=f.Client(f.ClientId,"Musteri");Assert.Equal(HttpStatusCode.OK,(await c.PostAsync($"/api/client/favorites/{f.ProfileId}",null)).StatusCode);Assert.Equal(HttpStatusCode.OK,(await c.PostAsync($"/api/client/favorites/{f.ProfileId}",null)).StatusCode);Assert.Equal(HttpStatusCode.OK,(await f.Client(f.OtherClientId,"Musteri").PostAsync($"/api/client/favorites/{f.ProfileId}",null)).StatusCode);using var s=f.Services.CreateScope();Assert.Equal(2,await s.ServiceProvider.GetRequiredService<AppDbContext>().ClientFavorites.CountAsync());}
+ [Fact]public async Task Invisible_business_cannot_be_added(){using var f=new RequestApiFactory();f.Seed();using(var s=f.Services.CreateScope()){var db=s.ServiceProvider.GetRequiredService<AppDbContext>();(await db.BarberProfiles.SingleAsync()).IsOnline=false;await db.SaveChangesAsync();}var r=await f.Client(f.ClientId,"Musteri").PostAsync($"/api/client/favorites/{f.ProfileId}",null);Assert.Equal(HttpStatusCode.NotFound,r.StatusCode);Assert.Contains("favorite_business_unavailable",await r.Content.ReadAsStringAsync());}
+ [Fact]public async Task List_is_paged_compact_and_scoped(){using var f=new RequestApiFactory();f.Seed();await f.Client(f.ClientId,"Musteri").PostAsync($"/api/client/favorites/{f.ProfileId}",null);var json=await f.Client(f.ClientId,"Musteri").GetFromJsonAsync<JsonElement>("/api/client/favorites?page=1&pageSize=20");Assert.Equal(1,json.GetProperty("totalCount").GetInt32());var item=json.GetProperty("items")[0];Assert.Equal(f.ProfileId,item.GetProperty("id").GetGuid());Assert.False(item.TryGetProperty("userId",out _));var other=await f.Client(f.OtherClientId,"Musteri").GetFromJsonAsync<JsonElement>("/api/client/favorites");Assert.Equal(0,other.GetProperty("totalCount").GetInt32());Assert.Equal(HttpStatusCode.BadRequest,(await f.Client(f.ClientId,"Musteri").GetAsync("/api/client/favorites?page=0")).StatusCode);}
+ [Fact]public async Task Delete_is_soft_idempotent_and_status_changes(){using var f=new RequestApiFactory();f.Seed();var c=f.Client(f.ClientId,"Musteri");await c.PostAsync($"/api/client/favorites/{f.ProfileId}",null);Assert.True((await c.GetFromJsonAsync<JsonElement>($"/api/client/favorites/{f.ProfileId}/status")).GetProperty("isFavorite").GetBoolean());Assert.Equal(HttpStatusCode.OK,(await c.DeleteAsync($"/api/client/favorites/{f.ProfileId}")).StatusCode);Assert.Equal(HttpStatusCode.OK,(await c.DeleteAsync($"/api/client/favorites/{f.ProfileId}")).StatusCode);Assert.False((await c.GetFromJsonAsync<JsonElement>($"/api/client/favorites/{f.ProfileId}/status")).GetProperty("isFavorite").GetBoolean());using var s=f.Services.CreateScope();Assert.True((await s.ServiceProvider.GetRequiredService<AppDbContext>().ClientFavorites.SingleAsync()).IsDeleted);}
+}

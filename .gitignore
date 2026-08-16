@@ -1,0 +1,101 @@
+# ─── .NET / C# ───────────────────────────────────────────
+**/bin/
+**/obj/
+**/publish/
+**/publish-live/
+*.user
+*.suo
+*.pfx
+*.p12
+*.pem
+*.key
+secrets.json
+
+# Gerçek appsettings git'e girmez, sadece .Example şablonu girer
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/appsettings.Local.json
+!**/appsettings.Example.json
+
+# ─── Ortam değişkenleri ──────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Firebase ────────────────────────────────────────────
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase_options.dart
+**/*service-account*.json
+**/firebase-debug.log
+
+# ─── Android imzalama / keystore ─────────────────────────
+*.jks
+*.keystore
+**/key.properties
+**/key.properties.*
+
+# ─── Flutter / Dart ──────────────────────────────────────
+**/.dart_tool/
+**/build/
+**/coverage/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+
+# ─── Gömülü Flutter SDK (repoya kopyalanmış, dev) ────────
+.flutter-sdk/
+.flutter-sdk-fast/
+flutter*.zip
+flutter*.part*
+flutter_complete.zip
+
+# ─── Android gradle / yerel makine ───────────────────────
+**/.gradle/
+**/android/local.properties
+
+# ─── IDE / editör ────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# ─── İşletim sistemi ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Arşivler ve çıktılar ────────────────────────────────
+*.zip
+*.tgz
+*.tar.gz
+*.apk
+*.ipa
+*.log
+*.pyc
+__pycache__/
+
+# ─── Geçici / dump dosyaları ─────────────────────────────
+*.tmp
+uidump.xml
+window_dump.xml
+rev59.xml
+task*.log
+
+# ─── Yerel config / dump metinleri (gizli bilgi riski) ───
+/appsettings.txt
+/appsettings_prod.txt
+/env.txt
+/service.txt
+/status.txt
+/status_err.txt
+/check_db.py
+
+# ─── Makine verisi / araç klasörleri ─────────────────────
+.dart-appdata/
+.agents/
+.tools/
+api-publish*/

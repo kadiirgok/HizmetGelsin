@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Tesisat",
+    "icon": "plumbing_rounded",
+    "sortOrder": 1,
+    "categories": [
+      { "name": "Su Tesisatı", "sortOrder": 1 },
+      { "name": "Doğalgaz Tesisatı", "sortOrder": 2 },
+      { "name": "Tıkanıklık Açma", "sortOrder": 3 },
+      { "name": "Musluk & Batarya Montaj", "sortOrder": 4 }
+    ]
+  },
+  {
+    "name": "Elektrik",
+    "icon": "bolt_rounded",
+    "sortOrder": 2,
+    "categories": [
+      { "name": "Elektrik Arıza", "sortOrder": 1 },
+      { "name": "Aydınlatma Montajı", "sortOrder": 2 },
+      { "name": "Priz & Anahtar Değişim", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Tamir & Bakım",
+    "icon": "build_rounded",
+    "sortOrder": 3,
+    "categories": [
+      { "name": "Mobilya Montaj", "sortOrder": 1 },
+      { "name": "Boyacı & Alçı", "sortOrder": 2 },
+      { "name": "Kapı & Pencere Tamiri", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Temizlik",
+    "icon": "cleaning_services_rounded",
+    "sortOrder": 4,
+    "categories": [
+      { "name": "Ev Temizliği", "sortOrder": 1 },
+      { "name": "Ofis Temizliği", "sortOrder": 2 },
+      { "name": "Halı & Koltuk Yıkama", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Nakliye",
+    "icon": "local_shipping_rounded",
+    "sortOrder": 5,
+    "categories": [
+      { "name": "Evden Eve Nakliyat", "sortOrder": 1 },
+      { "name": "Parça Eşya Taşıma", "sortOrder": 2 }
+    ]
+  },
+  {
+    "name": "Oto Servis",
+    "icon": "car_repair_rounded",
+    "sortOrder": 6,
+    "categories": [
+      { "name": "Motor Tamiri", "sortOrder": 1 },
+      { "name": "Kaporta & Boya", "sortOrder": 2 },
+      { "name": "Lastik & Yol Yardım", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Kuaför & Güzellik",
+    "icon": "content_cut_rounded",
+    "sortOrder": 7,
+    "categories": [
+      { "name": "Kuaför (Erkek)", "sortOrder": 1 },
+      { "name": "Kuaför (Kadın)", "sortOrder": 2 },
+      { "name": "Makyaj & Cilt Bakımı", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Sağlık & Bakım",
+    "icon": "health_and_safety_rounded",
+    "sortOrder": 8,
+    "categories": [
+      { "name": "Fizyoterapi", "sortOrder": 1 },
+      { "name": "Diyetisyen", "sortOrder": 2 },
+      { "name": "Hasta Bakımı", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Özel Ders",
+    "icon": "school_rounded",
+    "sortOrder": 9,
+    "categories": [
+      { "name": "Matematik", "sortOrder": 1 },
+      { "name": "İngilizce", "sortOrder": 2 },
+      { "name": "Müzik & Enstrüman", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Organizasyon",
+    "icon": "event_rounded",
+    "sortOrder": 10,
+    "categories": [
+      { "name": "Düğün Organizasyonu", "sortOrder": 1 },
+      { "name": "Doğum Günü & Parti", "sortOrder": 2 }
+    ]
+  },
+  {
+    "name": "Evcil Hayvan",
+    "icon": "pets_rounded",
+    "sortOrder": 11,
+    "categories": [
+      { "name": "Veteriner", "sortOrder": 1 },
+      { "name": "Pet Kuaför", "sortOrder": 2 },
+      { "name": "Köpek Gezdirme", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Bahçe & Peyzaj",
+    "icon": "yard_rounded",
+    "sortOrder": 12,
+    "categories": [
+      { "name": "Bahçe Bakımı", "sortOrder": 1 },
+      { "name": "Ağaç Budama", "sortOrder": 2 },
+      { "name": "Çim Biçme", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Bilgisayar & Teknik Servis",
+    "icon": "computer_rounded",
+    "sortOrder": 13,
+    "categories": [
+      { "name": "Bilgisayar Tamiri", "sortOrder": 1 },
+      { "name": "Telefon Tamiri", "sortOrder": 2 },
+      { "name": "Network & Ağ Kurulumu", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "İnşaat & Tadilat",
+    "icon": "construction_rounded",
+    "sortOrder": 14,
+    "categories": [
+      { "name": "İç Tadilat", "sortOrder": 1 },
+      { "name": "Dış Cephe", "sortOrder": 2 },
+      { "name": "Çatı & İzolasyon", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Beyaz Eşya",
+    "icon": "kitchen_rounded",
+    "sortOrder": 15,
+    "categories": [
+      { "name": "Buzdolabı Tamiri", "sortOrder": 1 },
+      { "name": "Çamaşır Makinesi Tamiri", "sortOrder": 2 },
+      { "name": "Klima Servisi", "sortOrder": 3 }
+    ]
+  },
+  {
+    "name": "Diğer",
+    "icon": "handyman_rounded",
+    "sortOrder": 99,
+    "categories": [
+      { "name": "Diğer Hizmetler", "sortOrder": 1 }
+    ]
+  }
+]

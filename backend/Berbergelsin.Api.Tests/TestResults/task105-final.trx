@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="782d7bf0-d9f3-4f44-b998-6b9a1eb5a47e" name="gokak@ABDULKADIR 2026-07-16 16:59:57" runUser="ABDULKADIR\gokak" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-07-16T16:59:57.8070566+03:00" queuing="2026-07-16T16:59:57.8070572+03:00" start="2026-07-16T16:59:57.0942610+03:00" finish="2026-07-16T16:59:59.5184992+03:00" />
+  <TestSettings name="default" id="884168d0-9cf9-4ffa-a4fb-a7dc6886a06d">
+    <Deployment runDeploymentRoot="gokak_ABDULKADIR_2026-07-16_16_59_57" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="503c56e2-8b4a-44fc-81ab-cafe8360fbad" testId="28dad87c-3a33-3408-cce1-6dcb8f0a3a66" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Details_success_has_exact_contract" computerName="ABDULKADIR" duration="00:00:00.0632021" startTime="2026-07-16T16:59:59.3797402+03:00" endTime="2026-07-16T16:59:59.3797405+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="503c56e2-8b4a-44fc-81ab-cafe8360fbad" />
+    <UnitTestResult executionId="d3e56419-8869-45bb-9e5b-3d1b8ed109b5" testId="e328b38f-8fa9-a0b8-0a49-bbe0357f60a1" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Autocomplete_filters_explicit_foreign_prediction" computerName="ABDULKADIR" duration="00:00:00.0039265" startTime="2026-07-16T16:59:57.7748327+03:00" endTime="2026-07-16T16:59:57.7748330+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3e56419-8869-45bb-9e5b-3d1b8ed109b5" />
+    <UnitTestResult executionId="6143fcfa-742f-4260-8a0a-5a8aa23c7ca0" testId="5771c598-39b8-7d30-a92b-d596088162fd" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_short_query_is_400(q: &quot;ab&quot;)" computerName="ABDULKADIR" duration="00:00:00.0812678" startTime="2026-07-16T16:59:58.7947954+03:00" endTime="2026-07-16T16:59:58.7947959+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6143fcfa-742f-4260-8a0a-5a8aa23c7ca0" />
+    <UnitTestResult executionId="7c07dd89-0324-4786-af5d-60aa3510932c" testId="0b799f1a-c3f1-b3d8-1af5-9a69be4bec15" testName="Berbergelsin.Api.Tests.ServiceCatalogTests.Mutating_verbs_are_not_supported(verb: &quot;DELETE&quot;)" computerName="ABDULKADIR" duration="00:00:00.0015257" startTime="2026-07-16T16:59:58.4523479+03:00" endTime="2026-07-16T16:59:58.4523484+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c07dd89-0324-4786-af5d-60aa3510932c" />
+    <UnitTestResult executionId="f4ee734b-aed8-4388-abad-2d54960af8b4" testId="0376d762-35fd-1e51-73f4-b0c7050a6349" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Working_hours_use_istanbul_local_time" computerName="ABDULKADIR" duration="00:00:00.0022894" startTime="2026-07-16T16:59:58.3016217+03:00" endTime="2026-07-16T16:59:58.3016218+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4ee734b-aed8-4388-abad-2d54960af8b4" />
+    <UnitTestResult executionId="2a099dbe-134b-4e7d-8ed1-0c67def23732" testId="95253959-c303-c800-92d4-39a5e815afea" testName="Berbergelsin.Api.Tests.OfferEndpointTests.Create_requires_customer_and_active_account" computerName="ABDULKADIR" duration="00:00:00.0441755" startTime="2026-07-16T16:59:59.4058633+03:00" endTime="2026-07-16T16:59:59.4058636+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a099dbe-134b-4e7d-8ed1-0c67def23732" />
+    <UnitTestResult executionId="d12fdae0-1c12-436d-b6e0-681fbeb5767a" testId="a9730b38-8166-a4f9-63b8-e95679302a7e" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Missing_key_is_controlled" computerName="ABDULKADIR" duration="00:00:00.0008172" startTime="2026-07-16T16:59:57.8220225+03:00" endTime="2026-07-16T16:59:57.8220227+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d12fdae0-1c12-436d-b6e0-681fbeb5767a" />
+    <UnitTestResult executionId="46abde93-20eb-4ef0-bc60-4db68b9e1616" testId="e1c4db0b-cd77-59f2-7351-13a122ef9322" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Autocomplete_sends_Turkey_Turkish_token_trim_context_bias_and_headers" computerName="ABDULKADIR" duration="00:00:00.0025013" startTime="2026-07-16T16:59:57.8211641+03:00" endTime="2026-07-16T16:59:57.8211646+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46abde93-20eb-4ef0-bc60-4db68b9e1616" />
+    <UnitTestResult executionId="5229d289-9fb0-4af0-aca2-0d520f39ef76" testId="e50fdeb4-69bd-6089-9e6a-6e77fe6abe9a" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_short_query_is_400(q: &quot;&quot;)" computerName="ABDULKADIR" duration="00:00:00.1001827" startTime="2026-07-16T16:59:58.7130093+03:00" endTime="2026-07-16T16:59:58.7130094+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5229d289-9fb0-4af0-aca2-0d520f39ef76" />
+    <UnitTestResult executionId="ef2f34a8-2e65-4c1e-bbfa-3ffb7ff9afb4" testId="2d301cab-795c-5577-72dc-49efeb602e6a" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Service_mode_maps_to_existing_model(input: &quot;atCustomerLocation&quot;, expected: &quot;Mobile&quot;)" computerName="ABDULKADIR" duration="00:00:00.0002972" startTime="2026-07-16T16:59:58.3067173+03:00" endTime="2026-07-16T16:59:58.3067174+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef2f34a8-2e65-4c1e-bbfa-3ffb7ff9afb4" />
+    <UnitTestResult executionId="77efa026-66de-4868-abfd-a77d7153591e" testId="85dde40d-b7c0-08cd-9ba9-807e18eaf34a" testName="Berbergelsin.Api.Tests.OfferEndpointTests.Pending_accept_creates_one_request_and_retry_returns_same_result" computerName="ABDULKADIR" duration="00:00:00.1227037" startTime="2026-07-16T16:59:59.2667695+03:00" endTime="2026-07-16T16:59:59.2667699+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77efa026-66de-4868-abfd-a77d7153591e" />
+    <UnitTestResult executionId="4bd151eb-91af-48c8-b9dd-ecba04ba4089" testId="72f0bfa2-64eb-2794-cc57-f11d20203cdc" testName="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Valid_request_snapshots_backend_price_and_audit_fields" computerName="ABDULKADIR" duration="00:00:01.1056195" startTime="2026-07-16T16:59:58.6366827+03:00" endTime="2026-07-16T16:59:58.6366831+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bd151eb-91af-48c8-b9dd-ecba04ba4089" />
+    <UnitTestResult executionId="995d6ef7-b2fb-44f5-9363-ee79f0ba2ad1" testId="c9d5f9b2-4600-2fdd-be8a-34cd2567326c" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_invalid_values(first: &quot;Ad&quot;, last: &quot; &quot;, email: &quot;a@b.com&quot;, image: &quot;https://cdn.example.com/a.jpg&quot;)" computerName="ABDULKADIR" duration="00:00:00.1043247" startTime="2026-07-16T16:59:58.8267499+03:00" endTime="2026-07-16T16:59:58.8267501+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="995d6ef7-b2fb-44f5-9363-ee79f0ba2ad1" />
+    <UnitTestResult executionId="70909ca7-a484-4599-a04e-471f898b329a" testId="8e39d353-cfc9-ea5b-961c-90b77d28bb87" testName="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Same_key_with_changed_payload_conflicts" computerName="ABDULKADIR" duration="00:00:00.0957558" startTime="2026-07-16T16:59:59.1827768+03:00" endTime="2026-07-16T16:59:59.1827771+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70909ca7-a484-4599-a04e-471f898b329a" />
+    <UnitTestResult executionId="f0148b6a-0602-4e01-b168-5a019646cd13" testId="1978e542-d0dd-fa00-7398-d4fbf53c138e" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_invalid_suggestion_token_is_400(token: &quot;not-uuid&quot;)" computerName="ABDULKADIR" duration="00:00:00.0619418" startTime="2026-07-16T16:59:58.5045044+03:00" endTime="2026-07-16T16:59:58.5045046+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0148b6a-0602-4e01-b168-5a019646cd13" />
+    <UnitTestResult executionId="112fcc1a-9ac7-4f8c-b336-1377682abc18" testId="3cbf3b3f-d49c-6011-0338-00e4325d52fb" testName="Berbergelsin.Api.Tests.ServiceCatalogTests.Catalog_is_public_and_returns_200" computerName="ABDULKADIR" duration="00:00:00.1061340" startTime="2026-07-16T16:59:58.4334830+03:00" endTime="2026-07-16T16:59:58.4334832+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="112fcc1a-9ac7-4f8c-b336-1377682abc18" />
+    <UnitTestResult executionId="8d36a157-328c-4244-97fe-78d077521e94" testId="a81498e0-b42a-bc09-472c-e588fdc319a0" testName="Berbergelsin.Api.Tests.OfferEndpointTests.Same_key_changed_payload_conflicts_and_price_is_validated" computerName="ABDULKADIR" duration="00:00:00.1478547" startTime="2026-07-16T16:59:59.0439588+03:00" endTime="2026-07-16T16:59:59.0439591+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d36a157-328c-4244-97fe-78d077521e94" />
+    <UnitTestResult executionId="08af8ef6-5354-4432-905c-5e3e0a404225" testId="8c4211f0-448a-65bc-cf8c-16bbca37fa23" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Get_requires_authentication_and_customer_session_and_account_role" computerName="ABDULKADIR" duration="00:00:00.0977296" startTime="2026-07-16T16:59:59.1655109+03:00" endTime="2026-07-16T16:59:59.1655111+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08af8ef6-5354-4432-905c-5e3e0a404225" />
+    <UnitTestResult executionId="8ea5d0da-d93d-40d3-9d8a-88752452a2ea" testId="e1628ba9-22ac-2b7e-7770-44876628af60" testName="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Empty_reviews_return_empty_page" computerName="ABDULKADIR" duration="00:00:00.1331081" startTime="2026-07-16T16:59:58.5651304+03:00" endTime="2026-07-16T16:59:58.5651307+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ea5d0da-d93d-40d3-9d8a-88752452a2ea" />
+    <UnitTestResult executionId="18ce2cad-833d-40cc-9053-769b3f667d5a" testId="5d3b10e6-ff21-51ae-7aed-e8ead7f2efac" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;sort=random&quot;, code: &quot;discovery_invalid_filter&quot;)" computerName="ABDULKADIR" duration="00:00:00.0048480" startTime="2026-07-16T16:59:58.3500818+03:00" endTime="2026-07-16T16:59:58.3500819+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18ce2cad-833d-40cc-9053-769b3f667d5a" />
+    <UnitTestResult executionId="e6a1148c-ca15-4a8d-958f-97cdc0c81702" testId="12d27222-77d2-8921-3d17-a294b8ff901c" testName="Berbergelsin.Api.Tests.OfferEndpointTests.Concurrent_accept_and_reject_allow_only_one_transition" computerName="ABDULKADIR" duration="00:00:00.0939329" startTime="2026-07-16T16:59:59.3613610+03:00" endTime="2026-07-16T16:59:59.3613611+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6a1148c-ca15-4a8d-958f-97cdc0c81702" />
+    <UnitTestResult executionId="c9563d94-7239-4fa2-81bc-49966c14ac5e" testId="b55fc23c-86fa-938d-d7b4-cd9c0a50b746" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Repeated_429_is_rate_limited_after_two_calls" computerName="ABDULKADIR" duration="00:00:00.1199946" startTime="2026-07-16T16:59:57.6566643+03:00" endTime="2026-07-16T16:59:57.6566848+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9563d94-7239-4fa2-81bc-49966c14ac5e" />
+    <UnitTestResult executionId="bc693ed1-7847-4718-89d3-71561dad6ec0" testId="cc20b1b7-8b65-dab5-d805-cae52f238da9" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Anonymous_is_401" computerName="ABDULKADIR" duration="00:00:00.0422171" startTime="2026-07-16T16:59:58.0625342+03:00" endTime="2026-07-16T16:59:58.0625344+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc693ed1-7847-4718-89d3-71561dad6ec0" />
+    <UnitTestResult executionId="8dfd169b-625a-4c92-99d1-2c341affc945" testId="0da1d302-dc7b-c1a5-480d-dc3aaf57cb23" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Search_escapes_wildcards_and_trims(input: &quot;%_&quot;, expected: &quot;%\\%\\_%&quot;)" computerName="ABDULKADIR" duration="00:00:00.0009817" startTime="2026-07-16T16:59:58.2989262+03:00" endTime="2026-07-16T16:59:58.2989265+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8dfd169b-625a-4c92-99d1-2c341affc945" />
+    <UnitTestResult executionId="22908646-1ad2-4fd6-87b7-72b9af73a1d5" testId="f86580ed-7f1a-7430-80f8-af43c8f22102" testName="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Offline_and_deleted_account_are_404" computerName="ABDULKADIR" duration="00:00:00.9004493" startTime="2026-07-16T16:59:58.4314878+03:00" endTime="2026-07-16T16:59:58.4314879+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22908646-1ad2-4fd6-87b7-72b9af73a1d5" />
+    <UnitTestResult executionId="b864f761-2105-4ff7-bbbc-d9b0faf98aa7" testId="a95f4265-7f8e-e66c-a8b3-90d1e0c80cd9" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Delete_is_authorized_idempotent_preserves_user_and_revokes_sessions" computerName="ABDULKADIR" duration="00:00:00.1235903" startTime="2026-07-16T16:59:59.3777137+03:00" endTime="2026-07-16T16:59:59.3777139+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b864f761-2105-4ff7-bbbc-d9b0faf98aa7" />
+    <UnitTestResult executionId="17115287-992f-4ba9-8492-d5de190b3f55" testId="849e750a-ac63-b0ea-b935-1953acffefb9" testName="Berbergelsin.Api.Tests.OfferEndpointTests.Create_sets_server_expiration_and_is_idempotent" computerName="ABDULKADIR" duration="00:00:00.0990293" startTime="2026-07-16T16:59:59.1435293+03:00" endTime="2026-07-16T16:59:59.1435295+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17115287-992f-4ba9-8492-d5de190b3f55" />
+    <UnitTestResult executionId="4172215a-ad82-4558-863b-5d8d5ff42b90" testId="f0c186ab-a265-74af-0eef-a7c4659e5e11" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Details_maps_all_components_and_minimum_mask" computerName="ABDULKADIR" duration="00:00:00.0293329" startTime="2026-07-16T16:59:57.7246357+03:00" endTime="2026-07-16T16:59:57.7246359+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4172215a-ad82-4558-863b-5d8d5ff42b90" />
+    <UnitTestResult executionId="841c30ac-a832-4647-a928-19ad83a6da2b" testId="d081765b-8ae0-c72c-2cf6-18794ecf62a7" testName="Berbergelsin.Api.Tests.OfferEndpointTests.Barber_offer_requires_own_active_request" computerName="ABDULKADIR" duration="00:00:00.2202319" startTime="2026-07-16T16:59:58.6743359+03:00" endTime="2026-07-16T16:59:58.6743361+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="841c30ac-a832-4647-a928-19ad83a6da2b" />
+    <UnitTestResult executionId="92d5829b-eb05-4321-bdcd-8fad9fcdfe0e" testId="25df2c68-c12a-e00b-88b9-2104f1a96ccd" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Mutating_verbs_are_not_supported(method: &quot;DELETE&quot;)" computerName="ABDULKADIR" duration="00:00:00.0194233" startTime="2026-07-16T16:59:58.2978555+03:00" endTime="2026-07-16T16:59:58.2978558+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92d5829b-eb05-4321-bdcd-8fad9fcdfe0e" />
+    <UnitTestResult executionId="a48a404c-f440-4298-b6f8-f2aabeb8019b" testId="2150293d-3bd4-38a5-e4f2-a87ff3bd39bb" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Unsupported_suggestion_methods_are_405(method: &quot;DELETE&quot;)" computerName="ABDULKADIR" duration="00:00:00.0709729" startTime="2026-07-16T16:59:59.1615054+03:00" endTime="2026-07-16T16:59:59.1615056+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a48a404c-f440-4298-b6f8-f2aabeb8019b" />
+    <UnitTestResult executionId="6b67d2cd-a4f7-4280-b90b-48d50999471e" testId="9e07d29c-7f68-b153-2b18-cbbdf771b729" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Get_returns_only_own_safe_contract" computerName="ABDULKADIR" duration="00:00:00.8336750" startTime="2026-07-16T16:59:58.3649420+03:00" endTime="2026-07-16T16:59:58.3649425+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b67d2cd-a4f7-4280-b90b-48d50999471e" />
+    <UnitTestResult executionId="55e47301-2bbd-4a67-b928-893dcd8cfc13" testId="c17a9fb4-870a-54c6-2978-dd1106a872e5" testName="Berbergelsin.Api.Tests.HealthEndpointTests.Post_is_rejected_without_executing_health_handler" computerName="ABDULKADIR" duration="00:00:00.0230660" startTime="2026-07-16T16:59:57.9614146+03:00" endTime="2026-07-16T16:59:57.9614147+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55e47301-2bbd-4a67-b928-893dcd8cfc13" />
+    <UnitTestResult executionId="07f46053-46d2-4166-a216-1a4f69c19279" testId="33cc31f5-f454-4806-e0bb-6223254eb3d3" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Provider_errors_are_safe(failure: ProviderError, status: 502, code: &quot;address_provider_error&quot;)" computerName="ABDULKADIR" duration="00:00:00.0693584" startTime="2026-07-16T16:59:58.2689032+03:00" endTime="2026-07-16T16:59:58.2689034+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07f46053-46d2-4166-a216-1a4f69c19279" />
+    <UnitTestResult executionId="543ac8b4-68db-4957-a476-f1a45883058a" testId="de76fbdc-5999-ce60-93a4-6feb7c386324" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Mutating_verbs_are_not_supported(method: &quot;PUT&quot;)" computerName="ABDULKADIR" duration="00:00:00.0048674" startTime="2026-07-16T16:59:58.2779656+03:00" endTime="2026-07-16T16:59:58.2779658+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="543ac8b4-68db-4957-a476-f1a45883058a" />
+    <UnitTestResult executionId="1541a91d-98da-468c-bac0-e1c3e61a06e2" testId="426cb1bf-d451-7977-feb1-6044b81599d3" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Unauthenticated_is_401" computerName="ABDULKADIR" duration="00:00:00.0039596" startTime="2026-07-16T16:59:58.3060541+03:00" endTime="2026-07-16T16:59:58.3060542+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1541a91d-98da-468c-bac0-e1c3e61a06e2" />
+    <UnitTestResult executionId="92bb43d4-e0a4-4705-8d30-427b5777e482" testId="2a83d23c-a365-04ed-e9c8-14e70343c3e5" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Transient_status_retries_once_then_succeeds(status: 500)" computerName="ABDULKADIR" duration="00:00:00.0371070" startTime="2026-07-16T16:59:57.8596529+03:00" endTime="2026-07-16T16:59:57.8596533+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92bb43d4-e0a4-4705-8d30-427b5777e482" />
+    <UnitTestResult executionId="c9244c86-6492-46d6-8d0f-c43854680340" testId="9b548516-d8c3-c092-df28-1d7d75cea35f" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Unsupported_suggestion_methods_are_405(method: &quot;PUT&quot;)" computerName="ABDULKADIR" duration="00:00:00.0750095" startTime="2026-07-16T16:59:59.2370496+03:00" endTime="2026-07-16T16:59:59.2370499+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9244c86-6492-46d6-8d0f-c43854680340" />
+    <UnitTestResult executionId="e37baf99-b639-4f42-a83e-797caec3baf2" testId="fad17614-f6ef-ab0b-ef28-faaa8709e5d3" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Unsupported_suggestion_methods_are_405(method: &quot;POST&quot;)" computerName="ABDULKADIR" duration="00:00:00.0805374" startTime="2026-07-16T16:59:59.0900146+03:00" endTime="2026-07-16T16:59:59.0900150+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e37baf99-b639-4f42-a83e-797caec3baf2" />
+    <UnitTestResult executionId="c1bc7025-4b01-44a9-990d-84c646881261" testId="832c1ad5-aa02-88b0-32b8-daef9032b5fd" testName="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Invalid_paging_and_date_are_safe_400" computerName="ABDULKADIR" duration="00:00:00.0074859" startTime="2026-07-16T16:59:58.7224687+03:00" endTime="2026-07-16T16:59:58.7224691+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1bc7025-4b01-44a9-990d-84c646881261" />
+    <UnitTestResult executionId="9bebd910-8ef9-4823-9c5a-c2748100f8ea" testId="001bdaaa-56c7-08f3-39fa-a7b14bbad826" testName="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Same_idempotency_key_is_scoped_to_customer" computerName="ABDULKADIR" duration="00:00:00.1111252" startTime="2026-07-16T16:59:58.8289434+03:00" endTime="2026-07-16T16:59:58.8289436+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bebd910-8ef9-4823-9c5a-c2748100f8ea" />
+    <UnitTestResult executionId="792586a2-643d-453b-8191-e028452bf4be" testId="f6490a46-c840-20a2-1b8f-94af3723e5ae" testName="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Same_key_and_payload_returns_same_request_without_duplicate" computerName="ABDULKADIR" duration="00:00:00.0904218" startTime="2026-07-16T16:59:59.2736718+03:00" endTime="2026-07-16T16:59:59.2736720+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="792586a2-643d-453b-8191-e028452bf4be" />
+    <UnitTestResult executionId="9e8aed2e-78dd-4263-a123-af96da80af86" testId="4bf39b94-e6f8-5db7-4f53-9e9ac5ece183" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Invalid_json_is_provider_error" computerName="ABDULKADIR" duration="00:00:00.0076753" startTime="2026-07-16T16:59:57.6662769+03:00" endTime="2026-07-16T16:59:57.6662772+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e8aed2e-78dd-4263-a123-af96da80af86" />
+    <UnitTestResult executionId="fbf35544-1c19-404d-bc94-d1eb8abc9d22" testId="5048e78b-c3de-493b-1659-55f9443ed6f0" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_blocks_stale_concurrency_version" computerName="ABDULKADIR" duration="00:00:00.1476085" startTime="2026-07-16T16:59:59.0673278+03:00" endTime="2026-07-16T16:59:59.0673281+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbf35544-1c19-404d-bc94-d1eb8abc9d22" />
+    <UnitTestResult executionId="802006c8-a36f-4f17-9e24-0624b7f2f5f0" testId="73a47434-6fdf-7e34-efa3-44b326edfe8b" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;serviceMode=teleport&quot;, code: &quot;discovery_invalid_filter&quot;)" computerName="ABDULKADIR" duration="00:00:00.0369420" startTime="2026-07-16T16:59:58.3441665+03:00" endTime="2026-07-16T16:59:58.3441666+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="802006c8-a36f-4f17-9e24-0624b7f2f5f0" />
+    <UnitTestResult executionId="1adafc55-380f-4415-abd8-02d974c64b63" testId="8746f231-e7d0-6832-a51c-694b94a42c59" testName="Berbergelsin.Api.Tests.OfferEndpointTests.Expired_offer_is_lazy_expired_and_cannot_transition" computerName="ABDULKADIR" duration="00:00:00.9224051" startTime="2026-07-16T16:59:58.4535296+03:00" endTime="2026-07-16T16:59:58.4535299+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1adafc55-380f-4415-abd8-02d974c64b63" />
+    <UnitTestResult executionId="128b7850-084c-45a7-af77-e9372fc731eb" testId="282ded30-7f9e-3720-1b2b-fa59a9389763" testName="Berbergelsin.Api.Tests.AddressRateLimitTests.Third_request_is_429_with_safe_contract_and_users_are_isolated" computerName="ABDULKADIR" duration="00:00:00.4368140" startTime="2026-07-16T16:59:57.9676573+03:00" endTime="2026-07-16T16:59:57.9676574+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="128b7850-084c-45a7-af77-e9372fc731eb" />
+    <UnitTestResult executionId="209bc599-2821-4da2-8faf-157db1109653" testId="8f91d14a-abe8-9a0c-af92-773f3110cbbb" testName="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Anonymous_is_401" computerName="ABDULKADIR" duration="00:00:00.0032211" startTime="2026-07-16T16:59:58.7444290+03:00" endTime="2026-07-16T16:59:58.7444294+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="209bc599-2821-4da2-8faf-157db1109653" />
+    <UnitTestResult executionId="6f672512-282c-4cde-a132-7a5b920efa98" testId="25528f6b-9142-a0fa-e479-d66dea0e16b6" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Service_mode_maps_to_existing_model(input: &quot;atBusiness&quot;, expected: &quot;Onsite&quot;)" computerName="ABDULKADIR" duration="00:00:00.0001522" startTime="2026-07-16T16:59:58.3067688+03:00" endTime="2026-07-16T16:59:58.3067689+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f672512-282c-4cde-a132-7a5b920efa98" />
+    <UnitTestResult executionId="ae1a4b8d-9700-4eac-ba27-95ba51765ce8" testId="d70461cc-7afc-e7ed-8a17-233f885b5603" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=-1&quot;, code: &quot;discovery_invalid_query&quot;)" computerName="ABDULKADIR" duration="00:00:00.0023295" startTime="2026-07-16T16:59:58.3684363+03:00" endTime="2026-07-16T16:59:58.3684365+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae1a4b8d-9700-4eac-ba27-95ba51765ce8" />
+    <UnitTestResult executionId="6471bc73-48f4-4025-8cbb-7c7b6e4235ef" testId="c25284e4-3e97-fce2-3cb4-43f75d1ad9af" testName="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Other_barber_is_forbidden" computerName="ABDULKADIR" duration="00:00:00.0120931" startTime="2026-07-16T16:59:58.7144789+03:00" endTime="2026-07-16T16:59:58.7144791+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6471bc73-48f4-4025-8cbb-7c7b6e4235ef" />
+    <UnitTestResult executionId="6610c00a-8f90-4ecc-9462-70a83512a4e0" testId="366bbd8c-0192-e4ce-52c2-54e1dd18fc28" testName="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Outside_hours_and_overlap_are_rejected_but_cancelled_does_not_block" computerName="ABDULKADIR" duration="00:00:00.1006315" startTime="2026-07-16T16:59:58.9300729+03:00" endTime="2026-07-16T16:59:58.9300731+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6610c00a-8f90-4ecc-9462-70a83512a4e0" />
+    <UnitTestResult executionId="1a3f2582-efc2-416f-920f-db8a9882900f" testId="37bffa5d-41d4-3b6d-581c-a0dc8f4f6152" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Overposting_cannot_change_identity_phone_role_or_verification" computerName="ABDULKADIR" duration="00:00:00.0875066" startTime="2026-07-16T16:59:59.2536062+03:00" endTime="2026-07-16T16:59:59.2536064+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a3f2582-efc2-416f-920f-db8a9882900f" />
+    <UnitTestResult executionId="806466f1-8b26-433c-b4e2-aa72ab751c2f" testId="456ca1c6-162d-6b8d-3078-5379094d4928" testName="Berbergelsin.Api.Tests.ServiceCatalogTests.Invalid_query_has_safe_code" computerName="ABDULKADIR" duration="00:00:00.0031741" startTime="2026-07-16T16:59:58.4822817+03:00" endTime="2026-07-16T16:59:58.4822819+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="806466f1-8b26-433c-b4e2-aa72ab751c2f" />
+    <UnitTestResult executionId="7918c9fe-9131-4dfb-af30-0a1ad7726ef6" testId="ffd6de91-3ee7-176f-b507-1da3263860e8" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Autocomplete_empty_is_safe" computerName="ABDULKADIR" duration="00:00:00.0010177" startTime="2026-07-16T16:59:57.9643305+03:00" endTime="2026-07-16T16:59:57.9643310+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7918c9fe-9131-4dfb-af30-0a1ad7726ef6" />
+    <UnitTestResult executionId="f537b314-8e4a-4d8c-9a63-d5b629271551" testId="251b47c5-8831-d335-468d-9d48c0681966" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Not_found_is_null_and_not_retried" computerName="ABDULKADIR" duration="00:00:00.0008053" startTime="2026-07-16T16:59:57.8173767+03:00" endTime="2026-07-16T16:59:57.8173770+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f537b314-8e4a-4d8c-9a63-d5b629271551" />
+    <UnitTestResult executionId="0605f3f5-edf3-49c6-9f59-b72aa7d534c0" testId="3e7991d1-c961-ad91-d9d9-db6fbe01bf01" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Provider_errors_are_safe(failure: Unavailable, status: 503, code: &quot;address_search_unavailable&quot;)" computerName="ABDULKADIR" duration="00:00:00.0683925" startTime="2026-07-16T16:59:58.1989105+03:00" endTime="2026-07-16T16:59:58.1989108+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0605f3f5-edf3-49c6-9f59-b72aa7d534c0" />
+    <UnitTestResult executionId="e2e9bd96-1dc4-4c26-8a0b-6ef3c7e4b5de" testId="fcf987f6-714b-4a30-8ce5-c0868f50bd3c" testName="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Reviews_are_paged_stable_and_average_is_correct" computerName="ABDULKADIR" duration="00:00:00.0440341" startTime="2026-07-16T16:59:58.6096858+03:00" endTime="2026-07-16T16:59:58.6096860+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2e9bd96-1dc4-4c26-8a0b-6ef3c7e4b5de" />
+    <UnitTestResult executionId="93791a1c-45ec-4fc1-a049-57f001c88ddb" testId="58d0af3f-1561-2e19-afc0-e41e2501633e" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_trims_normalizes_and_rotates_version" computerName="ABDULKADIR" duration="00:00:00.1313211" startTime="2026-07-16T16:59:58.5043170+03:00" endTime="2026-07-16T16:59:58.5043173+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93791a1c-45ec-4fc1-a049-57f001c88ddb" />
+    <UnitTestResult executionId="a4968362-ec69-443f-bbbe-aa5e10cb965b" testId="97a51d45-5417-0fda-c827-cc409cbea605" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_invalid_details_token_is_400(token: &quot;&quot;)" computerName="ABDULKADIR" duration="00:00:00.0915156" startTime="2026-07-16T16:59:58.8871063+03:00" endTime="2026-07-16T16:59:58.8871065+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4968362-ec69-443f-bbbe-aa5e10cb965b" />
+    <UnitTestResult executionId="c5439567-7984-4503-b8c5-f64d8d0a5449" testId="78a86573-880e-2b36-c8de-b8553b8eec35" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_long_and_duplicate_email" computerName="ABDULKADIR" duration="00:00:00.0736729" startTime="2026-07-16T16:59:59.4517028+03:00" endTime="2026-07-16T16:59:59.4517030+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5439567-7984-4503-b8c5-f64d8d0a5449" />
+    <UnitTestResult executionId="be0f448d-9892-4d65-88ef-a475cee2d5df" testId="5a5e6063-c1c9-531a-efcc-0361ef3a1360" testName="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Unknown_is_404" computerName="ABDULKADIR" duration="00:00:00.0031141" startTime="2026-07-16T16:59:58.6131930+03:00" endTime="2026-07-16T16:59:58.6131932+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be0f448d-9892-4d65-88ef-a475cee2d5df" />
+    <UnitTestResult executionId="82cac5c7-bd0d-49ad-81d8-2d26308b2cfd" testId="5d94aebf-50bb-751b-dad9-c389b4ee3a7e" testName="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Visible_business_is_200_and_contract_is_safe" computerName="ABDULKADIR" duration="00:00:00.0879918" startTime="2026-07-16T16:59:58.7019995+03:00" endTime="2026-07-16T16:59:58.7019998+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82cac5c7-bd0d-49ad-81d8-2d26308b2cfd" />
+    <UnitTestResult executionId="bba0581f-4918-4622-9a89-0ebc825841dc" testId="9833082d-c209-db43-b3e7-945db5ce90ac" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Service_mode_maps_to_existing_model(input: &quot;both&quot;, expected: &quot;Both&quot;)" computerName="ABDULKADIR" duration="00:00:00.0000070" startTime="2026-07-16T16:59:58.3067964+03:00" endTime="2026-07-16T16:59:58.3067965+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bba0581f-4918-4622-9a89-0ebc825841dc" />
+    <UnitTestResult executionId="b61c714a-5124-4098-9315-34806a6ccbe1" testId="090357fd-2841-cf69-51da-24c0f68cdb85" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_invalid_suggestion_token_is_400(token: &quot;&quot;)" computerName="ABDULKADIR" duration="00:00:00.0846520" startTime="2026-07-16T16:59:58.4346230+03:00" endTime="2026-07-16T16:59:58.4346232+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b61c714a-5124-4098-9315-34806a6ccbe1" />
+    <UnitTestResult executionId="c527c230-26d7-4978-8736-d738e5ca9555" testId="ae2703df-dde1-0e01-e93d-525ae977b35d" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Missing_components_remain_null(fixture: &quot;place-details-missing-neighborhood.json&quot;)" computerName="ABDULKADIR" duration="00:00:00.0151042" startTime="2026-07-16T16:59:57.6904030+03:00" endTime="2026-07-16T16:59:57.6904034+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c527c230-26d7-4978-8736-d738e5ca9555" />
+    <UnitTestResult executionId="f5921faf-b0c6-4ba0-a591-43c54f6536b2" testId="52a43ee5-5281-a634-a6d2-bab06638b021" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Autocomplete_is_capped_at_ten" computerName="ABDULKADIR" duration="00:00:00.0028871" startTime="2026-07-16T16:59:57.6947615+03:00" endTime="2026-07-16T16:59:57.6947617+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5921faf-b0c6-4ba0-a591-43c54f6536b2" />
+    <UnitTestResult executionId="37deb941-1c64-490e-8c31-f7a81f1aae5c" testId="f808a3cb-06a6-1a60-8816-0feba4927564" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Barber_is_403" computerName="ABDULKADIR" duration="00:00:00.0034441" startTime="2026-07-16T16:59:58.3911703+03:00" endTime="2026-07-16T16:59:58.3911706+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37deb941-1c64-490e-8c31-f7a81f1aae5c" />
+    <UnitTestResult executionId="f5e8c55c-f8c1-414a-ad52-3be650606250" testId="ac2afad2-1f3c-b953-0c90-adc394c84f75" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Health_is_preserved" computerName="ABDULKADIR" duration="00:00:00.0780590" startTime="2026-07-16T16:59:59.3155993+03:00" endTime="2026-07-16T16:59:59.3155996+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5e8c55c-f8c1-414a-ad52-3be650606250" />
+    <UnitTestResult executionId="05eac35c-4c0d-41bd-8ac5-a26386713c07" testId="aa0f0899-e5b0-06ff-e59a-183ea88a1edf" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Provider_errors_are_safe(failure: RateLimited, status: 429, code: &quot;address_search_rate_limited&quot;)" computerName="ABDULKADIR" duration="00:00:00.0800067" startTime="2026-07-16T16:59:58.3495040+03:00" endTime="2026-07-16T16:59:58.3495044+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05eac35c-4c0d-41bd-8ac5-a26386713c07" />
+    <UnitTestResult executionId="f5a3e070-56a9-4319-b7fa-461a78f408f9" testId="df2715a5-8583-c67e-2e1f-f0c2d15643e2" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Search_escapes_wildcards_and_trims(input: &quot;  İstanbul  &quot;, expected: &quot;%İstanbul%&quot;)" computerName="ABDULKADIR" duration="00:00:00.0001805" startTime="2026-07-16T16:59:58.2991768+03:00" endTime="2026-07-16T16:59:58.2991770+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5a3e070-56a9-4319-b7fa-461a78f408f9" />
+    <UnitTestResult executionId="d815e57b-3d76-4321-bf70-6b13846054fa" testId="91fb9dd3-740b-bcd6-fa71-1415b9be6445" testName="Berbergelsin.Api.Tests.ServiceCatalogTests.Mutating_verbs_are_not_supported(verb: &quot;PUT&quot;)" computerName="ABDULKADIR" duration="00:00:00.0121739" startTime="2026-07-16T16:59:58.4504294+03:00" endTime="2026-07-16T16:59:58.4504296+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d815e57b-3d76-4321-bf70-6b13846054fa" />
+    <UnitTestResult executionId="2c5a6949-34d2-4c6e-9c24-d05059ab469f" testId="6669ab75-1157-1d91-f2b7-124568dcb483" testName="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Concurrent_overlapping_requests_create_only_one_active_record" computerName="ABDULKADIR" duration="00:00:00.0918807" startTime="2026-07-16T16:59:59.3660207+03:00" endTime="2026-07-16T16:59:59.3660209+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c5a6949-34d2-4c6e-9c24-d05059ab469f" />
+    <UnitTestResult executionId="8d629cf9-5f18-4f5e-b79f-38258bfda2d7" testId="6955f12e-e30f-e0ae-4f22-531c9c43a1db" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;minRating=6&quot;, code: &quot;discovery_invalid_filter&quot;)" computerName="ABDULKADIR" duration="00:00:00.0024248" startTime="2026-07-16T16:59:58.3872493+03:00" endTime="2026-07-16T16:59:58.3872495+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d629cf9-5f18-4f5e-b79f-38258bfda2d7" />
+    <UnitTestResult executionId="d542803e-c834-4012-87be-a13e9da5404e" testId="5bed7837-c17e-165b-5f04-8c520b1f5db5" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_invalid_values(first: &quot;Ad&quot;, last: &quot;Soyad&quot;, email: &quot;a@b.com&quot;, image: &quot;http://cdn.example.com/a.jpg&quot;)" computerName="ABDULKADIR" duration="00:00:00.0984403" startTime="2026-07-16T16:59:58.7218556+03:00" endTime="2026-07-16T16:59:58.7218557+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d542803e-c834-4012-87be-a13e9da5404e" />
+    <UnitTestResult executionId="316c4c2c-d2a0-4848-b87a-965e76bb0b15" testId="355dc00a-907b-6804-1bae-b7668688817e" testName="Berbergelsin.Api.Tests.ServiceCatalogTests.Mutating_verbs_are_not_supported(verb: &quot;POST&quot;)" computerName="ABDULKADIR" duration="00:00:00.0038703" startTime="2026-07-16T16:59:58.4378611+03:00" endTime="2026-07-16T16:59:58.4378613+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="316c4c2c-d2a0-4848-b87a-965e76bb0b15" />
+    <UnitTestResult executionId="12a18cfc-f815-41a0-b14e-b86a855938d9" testId="dfa83b3f-59d5-3215-0c08-640e7ce44b39" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_invalid_values(first: &quot;Ad&quot;, last: &quot;Soyad&quot;, email: &quot;not-email&quot;, image: &quot;https://cdn.example.com/a.jpg&quot;)" computerName="ABDULKADIR" duration="00:00:00.0918009" startTime="2026-07-16T16:59:58.9191372+03:00" endTime="2026-07-16T16:59:58.9191374+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12a18cfc-f815-41a0-b14e-b86a855938d9" />
+    <UnitTestResult executionId="1f0782be-86f9-403d-ba42-5a2d688eb169" testId="d1401262-dffd-22d3-0c8a-5c952a95a7d6" testName="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Working_hours_are_evaluated_in_istanbul_and_require_full_duration" computerName="ABDULKADIR" duration="00:00:00.0003037" startTime="2026-07-16T16:59:58.6373898+03:00" endTime="2026-07-16T16:59:58.6373899+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f0782be-86f9-403d-ba42-5a2d688eb169" />
+    <UnitTestResult executionId="9740760a-3e8d-4829-a242-fdf2a9100bd6" testId="f62cc7b5-bc64-0d31-1a32-c312b044864c" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lng=29&amp;page=1&quot;, code: &quot;discovery_invalid_location&quot;)" computerName="ABDULKADIR" duration="00:00:00.0024643" startTime="2026-07-16T16:59:58.3744498+03:00" endTime="2026-07-16T16:59:58.3744500+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9740760a-3e8d-4829-a242-fdf2a9100bd6" />
+    <UnitTestResult executionId="7f6c6dac-ff5d-4a29-a978-b6c00cdd17ed" testId="7e895099-e437-7410-1bb9-6db6883c187f" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Caller_cancellation_propagates_without_retry" computerName="ABDULKADIR" duration="00:00:00.0413109" startTime="2026-07-16T16:59:57.8164710+03:00" endTime="2026-07-16T16:59:57.8164713+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f6c6dac-ff5d-4a29-a978-b6c00cdd17ed" />
+    <UnitTestResult executionId="d2e6ce2b-06f0-47cb-9990-118fe93013c5" testId="8a1cbd6c-c111-4f7e-804c-c8aafe4b8fa7" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Details_not_found_is_safe" computerName="ABDULKADIR" duration="00:00:00.1068695" startTime="2026-07-16T16:59:58.6118863+03:00" endTime="2026-07-16T16:59:58.6118865+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2e6ce2b-06f0-47cb-9990-118fe93013c5" />
+    <UnitTestResult executionId="766f9ad4-abde-49cc-bede-c4c087f00206" testId="7979783f-4614-036c-a864-15a28bd72d9d" testName="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_invalid_values(first: &quot; &quot;, last: &quot;Soyad&quot;, email: &quot;a@b.com&quot;, image: &quot;https://cdn.example.com/a.jpg&quot;)" computerName="ABDULKADIR" duration="00:00:00.1179821" startTime="2026-07-16T16:59:58.6228866+03:00" endTime="2026-07-16T16:59:58.6228868+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="766f9ad4-abde-49cc-bede-c4c087f00206" />
+    <UnitTestResult executionId="f613bfa2-b13e-4014-b13b-1e933c772cb6" testId="c6020264-10d3-3173-8df9-d9abbada9359" testName="Berbergelsin.Api.Tests.ServiceCatalogTests.Active_category_q_and_order_are_deterministic_and_dto_is_safe" computerName="ABDULKADIR" duration="00:00:00.7934968" startTime="2026-07-16T16:59:58.3242622+03:00" endTime="2026-07-16T16:59:58.3242624+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f613bfa2-b13e-4014-b13b-1e933c772cb6" />
+    <UnitTestResult executionId="0e393595-1971-4913-b9ec-1584c465bbf0" testId="886d49a8-36b4-5808-c94b-88006984c2dd" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;radiusKm=51&amp;page=1&quot;, code: &quot;discovery_invalid_location&quot;)" computerName="ABDULKADIR" duration="00:00:00.0033472" startTime="2026-07-16T16:59:58.3533719+03:00" endTime="2026-07-16T16:59:58.3533724+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e393595-1971-4913-b9ec-1584c465bbf0" />
+    <UnitTestResult executionId="0ad6ce94-bb6b-440b-b99e-0a7241371252" testId="c9567c34-b76d-326c-711f-70246e6e5a8f" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Suggestion_success_has_exact_contract" computerName="ABDULKADIR" duration="00:00:00.0667534" startTime="2026-07-16T16:59:58.1297690+03:00" endTime="2026-07-16T16:59:58.1297693+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ad6ce94-bb6b-440b-b99e-0a7241371252" />
+    <UnitTestResult executionId="c26e5fc3-7dba-4d47-8afc-a7b04c065dad" testId="1d61cbf0-1adc-4183-38b4-03e3423e08dc" testName="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Availability_uses_real_working_hours_without_slots" computerName="ABDULKADIR" duration="00:00:00.0175824" startTime="2026-07-16T16:59:58.7407126+03:00" endTime="2026-07-16T16:59:58.7407130+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c26e5fc3-7dba-4d47-8afc-a7b04c065dad" />
+    <UnitTestResult executionId="f7562215-e6bb-45dc-86db-ddb4d02f3197" testId="5d16b751-cf89-1e48-e5a6-db7b85570c5e" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Repeated_500_is_provider_error_after_two_calls" computerName="ABDULKADIR" duration="00:00:00.0397691" startTime="2026-07-16T16:59:57.9632545+03:00" endTime="2026-07-16T16:59:57.9632548+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7562215-e6bb-45dc-86db-ddb4d02f3197" />
+    <UnitTestResult executionId="f0d2f509-7929-4c2e-9851-ebef09bf1bdc" testId="e6066941-998d-d2dc-db35-37b2665b2863" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Missing_components_remain_null(fixture: &quot;place-details-missing-street.json&quot;)" computerName="ABDULKADIR" duration="00:00:00.0007347" startTime="2026-07-16T16:59:57.6911833+03:00" endTime="2026-07-16T16:59:57.6911835+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0d2f509-7929-4c2e-9851-ebef09bf1bdc" />
+    <UnitTestResult executionId="2c6eb170-4053-4f72-87b8-020a85a92f4a" testId="b62abc84-f79e-3b22-6150-6f29e1ed9585" testName="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Authentication_and_customer_role_are_required" computerName="ABDULKADIR" duration="00:00:00.0797628" startTime="2026-07-16T16:59:58.7171118+03:00" endTime="2026-07-16T16:59:58.7171121+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c6eb170-4053-4f72-87b8-020a85a92f4a" />
+    <UnitTestResult executionId="3cee3dd8-3cba-4986-93d4-53b1726bfb41" testId="e0e2347d-6273-ce26-5a66-c4987ff7ecea" testName="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Duplicate_unknown_and_inactive_services_are_rejected" computerName="ABDULKADIR" duration="00:00:00.1557384" startTime="2026-07-16T16:59:59.0865022+03:00" endTime="2026-07-16T16:59:59.0865026+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3cee3dd8-3cba-4986-93d4-53b1726bfb41" />
+    <UnitTestResult executionId="f83d01f7-41bc-4d35-8b42-c7d0dbed554d" testId="516259bc-0e9e-6f43-7113-60ce66b8a1f4" testName="Berbergelsin.Api.Tests.ServiceCatalogTests.Linker_reuses_stable_id_in_same_category_but_not_other_category" computerName="ABDULKADIR" duration="00:00:00.0156417" startTime="2026-07-16T16:59:58.4681593+03:00" endTime="2026-07-16T16:59:58.4681598+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f83d01f7-41bc-4d35-8b42-c7d0dbed554d" />
+    <UnitTestResult executionId="2488ccac-810e-4f45-8887-3cc166d3f011" testId="bc04bd76-b971-ee70-5f9b-ac2183057265" testName="Berbergelsin.Api.Tests.ServiceCatalogTests.Default_excludes_inactive_and_has_no_duplicates" computerName="ABDULKADIR" duration="00:00:00.0103449" startTime="2026-07-16T16:59:58.4786678+03:00" endTime="2026-07-16T16:59:58.4786680+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2488ccac-810e-4f45-8887-3cc166d3f011" />
+    <UnitTestResult executionId="2ff53956-47ed-4efc-b525-3e99581936bc" testId="ae041ec7-7dcf-72e0-a2a0-1a5a4897043d" testName="Berbergelsin.Api.Tests.HealthEndpointTests.Get_is_anonymous_safe_and_has_exact_contract" computerName="ABDULKADIR" duration="00:00:00.4085765" startTime="2026-07-16T16:59:57.9376234+03:00" endTime="2026-07-16T16:59:57.9376238+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ff53956-47ed-4efc-b525-3e99581936bc" />
+    <UnitTestResult executionId="a499b479-835c-46e4-8827-86e937ad79e0" testId="538bd9e3-c256-7506-67b6-84ba6504223f" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Mutating_verbs_are_not_supported(method: &quot;POST&quot;)" computerName="ABDULKADIR" duration="00:00:00.7414516" startTime="2026-07-16T16:59:58.2725990+03:00" endTime="2026-07-16T16:59:58.2725994+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a499b479-835c-46e4-8827-86e937ad79e0" />
+    <UnitTestResult executionId="7f620150-305f-4869-98f2-687723bb3f77" testId="3e73f754-8a4c-bba4-4ae7-4e6e69df3f79" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=91&amp;lng=29&amp;page=1&quot;, code: &quot;discovery_invalid_location&quot;)" computerName="ABDULKADIR" duration="00:00:00.0095476" startTime="2026-07-16T16:59:58.3844107+03:00" endTime="2026-07-16T16:59:58.3844109+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f620150-305f-4869-98f2-687723bb3f77" />
+    <UnitTestResult executionId="a649caa3-5f62-40f0-bff5-8568e486f048" testId="96fc981a-5558-24a6-dd3e-a9449e7e5b01" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;minPrice=-1&quot;, code: &quot;discovery_invalid_filter&quot;)" computerName="ABDULKADIR" duration="00:00:00.0117859" startTime="2026-07-16T16:59:58.3656684+03:00" endTime="2026-07-16T16:59:58.3656686+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a649caa3-5f62-40f0-bff5-8568e486f048" />
+    <UnitTestResult executionId="1f48754c-162c-46a9-a255-7a931d994425" testId="749d0273-b34a-22ac-24e6-21f68ff169e0" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_invalid_details_token_is_400(token: &quot;bad&quot;)" computerName="ABDULKADIR" duration="00:00:00.1211149" startTime="2026-07-16T16:59:59.0088405+03:00" endTime="2026-07-16T16:59:59.0088409+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f48754c-162c-46a9-a255-7a931d994425" />
+    <UnitTestResult executionId="05dac401-1f80-4900-ab12-bbddec8d67bb" testId="c77f9309-79a1-eac6-9fee-419f822e0fef" testName="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;minPrice=20&amp;maxPrice=10&quot;, code: &quot;discovery_invalid_filter&quot;)" computerName="ABDULKADIR" duration="00:00:00.0025761" startTime="2026-07-16T16:59:58.3715022+03:00" endTime="2026-07-16T16:59:58.3715024+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05dac401-1f80-4900-ab12-bbddec8d67bb" />
+    <UnitTestResult executionId="81f1e38e-77b6-4a25-9fb1-6553a52c24ff" testId="ae2ff1a7-4cbd-f94f-e18b-21469e91842a" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Bad_request_is_not_retried" computerName="ABDULKADIR" duration="00:00:00.0010765" startTime="2026-07-16T16:59:57.8185538+03:00" endTime="2026-07-16T16:59:57.8185541+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81f1e38e-77b6-4a25-9fb1-6553a52c24ff" />
+    <UnitTestResult executionId="bcc0f620-0aed-4d7c-a518-0508322070be" testId="0e09b443-7c44-63bc-a5f8-044c2176314c" testName="Berbergelsin.Api.Tests.OfferEndpointTests.Counter_can_only_be_resolved_by_owner_customer" computerName="ABDULKADIR" duration="00:00:00.2206702" startTime="2026-07-16T16:59:58.8955789+03:00" endTime="2026-07-16T16:59:58.8955791+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcc0f620-0aed-4d7c-a518-0508322070be" />
+    <UnitTestResult executionId="22ba12da-c134-465b-98f6-235acc4c8a97" testId="f863ca75-ff16-003a-79f2-a764fe98d074" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Long_query_is_400" computerName="ABDULKADIR" duration="00:00:00.0807312" startTime="2026-07-16T16:59:58.0199129+03:00" endTime="2026-07-16T16:59:58.0199133+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22ba12da-c134-465b-98f6-235acc4c8a97" />
+    <UnitTestResult executionId="8daf78d9-64e5-420c-90a2-4189f7422b00" testId="c0eb4160-c019-5a83-2546-c90fb76217a4" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Transient_status_retries_once_then_succeeds(status: 429)" computerName="ABDULKADIR" duration="00:00:00.0627311" startTime="2026-07-16T16:59:57.9229595+03:00" endTime="2026-07-16T16:59:57.9229599+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8daf78d9-64e5-420c-90a2-4189f7422b00" />
+    <UnitTestResult executionId="c86fe199-32cc-4fc7-ad8b-e16f25173601" testId="35c6988d-d6ab-8fb9-de51-a13ace54ae14" testName="Berbergelsin.Api.Tests.ServiceCatalogTests.Nearby_catalog_id_matches_linked_active_service_and_unknown_is_empty" computerName="ABDULKADIR" duration="00:00:00.0024396" startTime="2026-07-16T16:59:58.3268066+03:00" endTime="2026-07-16T16:59:58.3268068+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c86fe199-32cc-4fc7-ad8b-e16f25173601" />
+    <UnitTestResult executionId="1471a173-5af9-4fa7-b987-521992152fce" testId="82d5ca7c-31df-89a1-0ad4-35fd132b44f9" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Http_timeout_becomes_unavailable" computerName="ABDULKADIR" duration="00:00:00.0454666" startTime="2026-07-16T16:59:57.7706016+03:00" endTime="2026-07-16T16:59:57.7706022+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1471a173-5af9-4fa7-b987-521992152fce" />
+    <UnitTestResult executionId="56ae3c27-d264-46e7-b9c9-b209547ce1b8" testId="5eb90841-378a-2240-1120-f5e4a34ce307" testName="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Foreign_details_are_rejected" computerName="ABDULKADIR" duration="00:00:00.0009266" startTime="2026-07-16T16:59:57.6952496+03:00" endTime="2026-07-16T16:59:57.6952497+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56ae3c27-d264-46e7-b9c9-b209547ce1b8" />
+    <UnitTestResult executionId="db9af5f8-499e-4cab-828a-2e9d8f573099" testId="7faad936-2355-7b23-20a7-3e7878ae7f11" testName="Berbergelsin.Api.Tests.AddressEndpointTests.Incomplete_details_are_422" computerName="ABDULKADIR" duration="00:00:00.4075437" startTime="2026-07-16T16:59:57.9392119+03:00" endTime="2026-07-16T16:59:57.9392120+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db9af5f8-499e-4cab-828a-2e9d8f573099" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_invalid_details_token_is_400(token: &quot;bad&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="749d0273-b34a-22ac-24e6-21f68ff169e0">
+      <Execution id="1f48754c-162c-46a9-a255-7a931d994425" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Missing_or_invalid_details_token_is_400" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceCatalogTests.Mutating_verbs_are_not_supported(verb: &quot;PUT&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="91fb9dd3-740b-bcd6-fa71-1415b9be6445">
+      <Execution id="d815e57b-3d76-4321-bf70-6b13846054fa" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceCatalogTests" name="Mutating_verbs_are_not_supported" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lng=29&amp;page=1&quot;, code: &quot;discovery_invalid_location&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="f62cc7b5-bc64-0d31-1a32-c312b044864c">
+      <Execution id="9740760a-3e8d-4829-a242-fdf2a9100bd6" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Concurrent_overlapping_requests_create_only_one_active_record" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="6669ab75-1157-1d91-f2b7-124568dcb483">
+      <Execution id="2c5a6949-34d2-4c6e-9c24-d05059ab469f" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests" name="Concurrent_overlapping_requests_create_only_one_active_record" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceCatalogTests.Default_excludes_inactive_and_has_no_duplicates" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="bc04bd76-b971-ee70-5f9b-ac2183057265">
+      <Execution id="2488ccac-810e-4f45-8887-3cc166d3f011" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceCatalogTests" name="Default_excludes_inactive_and_has_no_duplicates" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.HealthEndpointTests.Get_is_anonymous_safe_and_has_exact_contract" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="ae041ec7-7dcf-72e0-a2a0-1a5a4897043d">
+      <Execution id="2ff53956-47ed-4efc-b525-3e99581936bc" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.HealthEndpointTests" name="Get_is_anonymous_safe_and_has_exact_contract" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Autocomplete_sends_Turkey_Turkish_token_trim_context_bias_and_headers" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="e1c4db0b-cd77-59f2-7351-13a122ef9322">
+      <Execution id="46abde93-20eb-4ef0-bc60-4db68b9e1616" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Autocomplete_sends_Turkey_Turkish_token_trim_context_bias_and_headers" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceCatalogTests.Invalid_query_has_safe_code" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="456ca1c6-162d-6b8d-3078-5379094d4928">
+      <Execution id="806466f1-8b26-433c-b4e2-aa72ab751c2f" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceCatalogTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_invalid_suggestion_token_is_400(token: &quot;not-uuid&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="1978e542-d0dd-fa00-7398-d4fbf53c138e">
+      <Execution id="f0148b6a-0602-4e01-b168-5a019646cd13" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Missing_or_invalid_suggestion_token_is_400" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Visible_business_is_200_and_contract_is_safe" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="5d94aebf-50bb-751b-dad9-c389b4ee3a7e">
+      <Execution id="82cac5c7-bd0d-49ad-81d8-2d26308b2cfd" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.BarberDetailEndpointTests" name="Visible_business_is_200_and_contract_is_safe" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_invalid_details_token_is_400(token: &quot;&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="97a51d45-5417-0fda-c827-cc409cbea605">
+      <Execution id="a4968362-ec69-443f-bbbe-aa5e10cb965b" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Missing_or_invalid_details_token_is_400" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;minPrice=-1&quot;, code: &quot;discovery_invalid_filter&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="96fc981a-5558-24a6-dd3e-a9449e7e5b01">
+      <Execution id="a649caa3-5f62-40f0-bff5-8568e486f048" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_invalid_suggestion_token_is_400(token: &quot;&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="090357fd-2841-cf69-51da-24c0f68cdb85">
+      <Execution id="b61c714a-5124-4098-9315-34806a6ccbe1" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Missing_or_invalid_suggestion_token_is_400" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Unsupported_suggestion_methods_are_405(method: &quot;POST&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="fad17614-f6ef-ab0b-ef28-faaa8709e5d3">
+      <Execution id="e37baf99-b639-4f42-a83e-797caec3baf2" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Unsupported_suggestion_methods_are_405" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Caller_cancellation_propagates_without_retry" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="7e895099-e437-7410-1bb9-6db6883c187f">
+      <Execution id="7f6c6dac-ff5d-4a29-a978-b6c00cdd17ed" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Caller_cancellation_propagates_without_retry" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Details_not_found_is_safe" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="8a1cbd6c-c111-4f7e-804c-c8aafe4b8fa7">
+      <Execution id="d2e6ce2b-06f0-47cb-9990-118fe93013c5" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Details_not_found_is_safe" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Transient_status_retries_once_then_succeeds(status: 429)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="c0eb4160-c019-5a83-2546-c90fb76217a4">
+      <Execution id="8daf78d9-64e5-420c-90a2-4189f7422b00" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Transient_status_retries_once_then_succeeds" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Same_idempotency_key_is_scoped_to_customer" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="001bdaaa-56c7-08f3-39fa-a7b14bbad826">
+      <Execution id="9bebd910-8ef9-4823-9c5a-c2748100f8ea" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests" name="Same_idempotency_key_is_scoped_to_customer" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Service_mode_maps_to_existing_model(input: &quot;atBusiness&quot;, expected: &quot;Onsite&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="25528f6b-9142-a0fa-e479-d66dea0e16b6">
+      <Execution id="6f672512-282c-4cde-a132-7a5b920efa98" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Service_mode_maps_to_existing_model" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Overposting_cannot_change_identity_phone_role_or_verification" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="37bffa5d-41d4-3b6d-581c-a0dc8f4f6152">
+      <Execution id="1a3f2582-efc2-416f-920f-db8a9882900f" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Overposting_cannot_change_identity_phone_role_or_verification" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_blocks_stale_concurrency_version" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="5048e78b-c3de-493b-1659-55f9443ed6f0">
+      <Execution id="fbf35544-1c19-404d-bc94-d1eb8abc9d22" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Update_blocks_stale_concurrency_version" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_short_query_is_400(q: &quot;&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="e50fdeb4-69bd-6089-9e6a-6e77fe6abe9a">
+      <Execution id="5229d289-9fb0-4af0-aca2-0d520f39ef76" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Missing_or_short_query_is_400" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Search_escapes_wildcards_and_trims(input: &quot;%_&quot;, expected: &quot;%\\%\\_%&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="0da1d302-dc7b-c1a5-480d-dc3aaf57cb23">
+      <Execution id="8dfd169b-625a-4c92-99d1-2c341affc945" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Search_escapes_wildcards_and_trims" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Working_hours_use_istanbul_local_time" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="0376d762-35fd-1e51-73f4-b0c7050a6349">
+      <Execution id="f4ee734b-aed8-4388-abad-2d54960af8b4" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Working_hours_use_istanbul_local_time" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;minRating=6&quot;, code: &quot;discovery_invalid_filter&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="6955f12e-e30f-e0ae-4f22-531c9c43a1db">
+      <Execution id="8d629cf9-5f18-4f5e-b79f-38258bfda2d7" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Anonymous_is_401" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="8f91d14a-abe8-9a0c-af92-773f3110cbbb">
+      <Execution id="209bc599-2821-4da2-8faf-157db1109653" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.BarberDetailEndpointTests" name="Anonymous_is_401" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Other_barber_is_forbidden" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="c25284e4-3e97-fce2-3cb4-43f75d1ad9af">
+      <Execution id="6471bc73-48f4-4025-8cbb-7c7b6e4235ef" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.BarberDetailEndpointTests" name="Other_barber_is_forbidden" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceCatalogTests.Linker_reuses_stable_id_in_same_category_but_not_other_category" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="516259bc-0e9e-6f43-7113-60ce66b8a1f4">
+      <Execution id="f83d01f7-41bc-4d35-8b42-c7d0dbed554d" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceCatalogTests" name="Linker_reuses_stable_id_in_same_category_but_not_other_category" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Reviews_are_paged_stable_and_average_is_correct" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="fcf987f6-714b-4a30-8ce5-c0868f50bd3c">
+      <Execution id="e2e9bd96-1dc4-4c26-8a0b-6ef3c7e4b5de" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.BarberDetailEndpointTests" name="Reviews_are_paged_stable_and_average_is_correct" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Autocomplete_is_capped_at_ten" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="52a43ee5-5281-a634-a6d2-bab06638b021">
+      <Execution id="f5921faf-b0c6-4ba0-a591-43c54f6536b2" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Autocomplete_is_capped_at_ten" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Authentication_and_customer_role_are_required" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="b62abc84-f79e-3b22-6150-6f29e1ed9585">
+      <Execution id="2c6eb170-4053-4f72-87b8-020a85a92f4a" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests" name="Authentication_and_customer_role_are_required" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Anonymous_is_401" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="cc20b1b7-8b65-dab5-d805-cae52f238da9">
+      <Execution id="bc693ed1-7847-4718-89d3-71561dad6ec0" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Anonymous_is_401" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.OfferEndpointTests.Pending_accept_creates_one_request_and_retry_returns_same_result" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="85dde40d-b7c0-08cd-9ba9-807e18eaf34a">
+      <Execution id="77efa026-66de-4868-abfd-a77d7153591e" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.OfferEndpointTests" name="Pending_accept_creates_one_request_and_retry_returns_same_result" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_invalid_values(first: &quot;Ad&quot;, last: &quot;Soyad&quot;, email: &quot;a@b.com&quot;, image: &quot;http://cdn.example.com/a.jpg&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="5bed7837-c17e-165b-5f04-8c520b1f5db5">
+      <Execution id="d542803e-c834-4012-87be-a13e9da5404e" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Update_rejects_invalid_values" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceCatalogTests.Mutating_verbs_are_not_supported(verb: &quot;DELETE&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="0b799f1a-c3f1-b3d8-1af5-9a69be4bec15">
+      <Execution id="7c07dd89-0324-4786-af5d-60aa3510932c" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceCatalogTests" name="Mutating_verbs_are_not_supported" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceCatalogTests.Mutating_verbs_are_not_supported(verb: &quot;POST&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="355dc00a-907b-6804-1bae-b7668688817e">
+      <Execution id="316c4c2c-d2a0-4848-b87a-965e76bb0b15" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceCatalogTests" name="Mutating_verbs_are_not_supported" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Incomplete_details_are_422" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="7faad936-2355-7b23-20a7-3e7878ae7f11">
+      <Execution id="db9af5f8-499e-4cab-828a-2e9d8f573099" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Incomplete_details_are_422" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Empty_reviews_return_empty_page" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="e1628ba9-22ac-2b7e-7770-44876628af60">
+      <Execution id="8ea5d0da-d93d-40d3-9d8a-88752452a2ea" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.BarberDetailEndpointTests" name="Empty_reviews_return_empty_page" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;serviceMode=teleport&quot;, code: &quot;discovery_invalid_filter&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="73a47434-6fdf-7e34-efa3-44b326edfe8b">
+      <Execution id="802006c8-a36f-4f17-9e24-0624b7f2f5f0" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceCatalogTests.Catalog_is_public_and_returns_200" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="3cbf3b3f-d49c-6011-0338-00e4325d52fb">
+      <Execution id="112fcc1a-9ac7-4f8c-b336-1377682abc18" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceCatalogTests" name="Catalog_is_public_and_returns_200" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Transient_status_retries_once_then_succeeds(status: 500)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="2a83d23c-a365-04ed-e9c8-14e70343c3e5">
+      <Execution id="92bb43d4-e0a4-4705-8d30-427b5777e482" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Transient_status_retries_once_then_succeeds" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Bad_request_is_not_retried" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="ae2ff1a7-4cbd-f94f-e18b-21469e91842a">
+      <Execution id="81f1e38e-77b6-4a25-9fb1-6553a52c24ff" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Bad_request_is_not_retried" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Repeated_500_is_provider_error_after_two_calls" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="5d16b751-cf89-1e48-e5a6-db7b85570c5e">
+      <Execution id="f7562215-e6bb-45dc-86db-ddb4d02f3197" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Repeated_500_is_provider_error_after_two_calls" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Get_returns_only_own_safe_contract" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="9e07d29c-7f68-b153-2b18-cbbdf771b729">
+      <Execution id="6b67d2cd-a4f7-4280-b90b-48d50999471e" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Get_returns_only_own_safe_contract" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_invalid_values(first: &quot;Ad&quot;, last: &quot;Soyad&quot;, email: &quot;not-email&quot;, image: &quot;https://cdn.example.com/a.jpg&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="dfa83b3f-59d5-3215-0c08-640e7ce44b39">
+      <Execution id="12a18cfc-f815-41a0-b14e-b86a855938d9" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Update_rejects_invalid_values" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Foreign_details_are_rejected" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="5eb90841-378a-2240-1120-f5e4a34ce307">
+      <Execution id="56ae3c27-d264-46e7-b9c9-b209547ce1b8" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Foreign_details_are_rejected" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.OfferEndpointTests.Create_sets_server_expiration_and_is_idempotent" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="849e750a-ac63-b0ea-b935-1953acffefb9">
+      <Execution id="17115287-992f-4ba9-8492-d5de190b3f55" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.OfferEndpointTests" name="Create_sets_server_expiration_and_is_idempotent" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressRateLimitTests.Third_request_is_429_with_safe_contract_and_users_are_isolated" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="282ded30-7f9e-3720-1b2b-fa59a9389763">
+      <Execution id="128b7850-084c-45a7-af77-e9372fc731eb" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressRateLimitTests" name="Third_request_is_429_with_safe_contract_and_users_are_isolated" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Offline_and_deleted_account_are_404" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="f86580ed-7f1a-7430-80f8-af43c8f22102">
+      <Execution id="22908646-1ad2-4fd6-87b7-72b9af73a1d5" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.BarberDetailEndpointTests" name="Offline_and_deleted_account_are_404" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Availability_uses_real_working_hours_without_slots" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="1d61cbf0-1adc-4183-38b4-03e3423e08dc">
+      <Execution id="c26e5fc3-7dba-4d47-8afc-a7b04c065dad" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.BarberDetailEndpointTests" name="Availability_uses_real_working_hours_without_slots" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Service_mode_maps_to_existing_model(input: &quot;atCustomerLocation&quot;, expected: &quot;Mobile&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="2d301cab-795c-5577-72dc-49efeb602e6a">
+      <Execution id="ef2f34a8-2e65-4c1e-bbfa-3ffb7ff9afb4" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Service_mode_maps_to_existing_model" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Get_requires_authentication_and_customer_session_and_account_role" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="8c4211f0-448a-65bc-cf8c-16bbca37fa23">
+      <Execution id="08af8ef6-5354-4432-905c-5e3e0a404225" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Get_requires_authentication_and_customer_session_and_account_role" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Autocomplete_empty_is_safe" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="ffd6de91-3ee7-176f-b507-1da3263860e8">
+      <Execution id="7918c9fe-9131-4dfb-af30-0a1ad7726ef6" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Autocomplete_empty_is_safe" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Unauthenticated_is_401" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="426cb1bf-d451-7977-feb1-6044b81599d3">
+      <Execution id="1541a91d-98da-468c-bac0-e1c3e61a06e2" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Unauthenticated_is_401" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Same_key_with_changed_payload_conflicts" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="8e39d353-cfc9-ea5b-961c-90b77d28bb87">
+      <Execution id="70909ca7-a484-4599-a04e-471f898b329a" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests" name="Same_key_with_changed_payload_conflicts" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Missing_components_remain_null(fixture: &quot;place-details-missing-street.json&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="e6066941-998d-d2dc-db35-37b2665b2863">
+      <Execution id="f0d2f509-7929-4c2e-9851-ebef09bf1bdc" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Missing_components_remain_null" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Outside_hours_and_overlap_are_rejected_but_cancelled_does_not_block" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="366bbd8c-0192-e4ce-52c2-54e1dd18fc28">
+      <Execution id="6610c00a-8f90-4ecc-9462-70a83512a4e0" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests" name="Outside_hours_and_overlap_are_rejected_but_cancelled_does_not_block" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.OfferEndpointTests.Expired_offer_is_lazy_expired_and_cannot_transition" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="8746f231-e7d0-6832-a51c-694b94a42c59">
+      <Execution id="1adafc55-380f-4415-abd8-02d974c64b63" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.OfferEndpointTests" name="Expired_offer_is_lazy_expired_and_cannot_transition" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=-1&quot;, code: &quot;discovery_invalid_query&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="d70461cc-7afc-e7ed-8a17-233f885b5603">
+      <Execution id="ae1a4b8d-9700-4eac-ba27-95ba51765ce8" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Barber_is_403" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="f808a3cb-06a6-1a60-8816-0feba4927564">
+      <Execution id="37deb941-1c64-490e-8c31-f7a81f1aae5c" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Barber_is_403" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Mutating_verbs_are_not_supported(method: &quot;PUT&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="de76fbdc-5999-ce60-93a4-6feb7c386324">
+      <Execution id="543ac8b4-68db-4957-a476-f1a45883058a" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Mutating_verbs_are_not_supported" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=91&amp;lng=29&amp;page=1&quot;, code: &quot;discovery_invalid_location&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="3e73f754-8a4c-bba4-4ae7-4e6e69df3f79">
+      <Execution id="7f620150-305f-4869-98f2-687723bb3f77" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Invalid_paging_and_date_are_safe_400" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="832c1ad5-aa02-88b0-32b8-daef9032b5fd">
+      <Execution id="c1bc7025-4b01-44a9-990d-84c646881261" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.BarberDetailEndpointTests" name="Invalid_paging_and_date_are_safe_400" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.OfferEndpointTests.Concurrent_accept_and_reject_allow_only_one_transition" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="12d27222-77d2-8921-3d17-a294b8ff901c">
+      <Execution id="e6a1148c-ca15-4a8d-958f-97cdc0c81702" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.OfferEndpointTests" name="Concurrent_accept_and_reject_allow_only_one_transition" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Missing_or_short_query_is_400(q: &quot;ab&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="5771c598-39b8-7d30-a92b-d596088162fd">
+      <Execution id="6143fcfa-742f-4260-8a0a-5a8aa23c7ca0" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Missing_or_short_query_is_400" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.OfferEndpointTests.Create_requires_customer_and_active_account" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="95253959-c303-c800-92d4-39a5e815afea">
+      <Execution id="2a099dbe-134b-4e7d-8ed1-0c67def23732" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.OfferEndpointTests" name="Create_requires_customer_and_active_account" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceCatalogTests.Nearby_catalog_id_matches_linked_active_service_and_unknown_is_empty" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="35c6988d-d6ab-8fb9-de51-a13ace54ae14">
+      <Execution id="c86fe199-32cc-4fc7-ad8b-e16f25173601" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceCatalogTests" name="Nearby_catalog_id_matches_linked_active_service_and_unknown_is_empty" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Autocomplete_filters_explicit_foreign_prediction" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="e328b38f-8fa9-a0b8-0a49-bbe0357f60a1">
+      <Execution id="d3e56419-8869-45bb-9e5b-3d1b8ed109b5" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Autocomplete_filters_explicit_foreign_prediction" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_invalid_values(first: &quot;Ad&quot;, last: &quot; &quot;, email: &quot;a@b.com&quot;, image: &quot;https://cdn.example.com/a.jpg&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="c9d5f9b2-4600-2fdd-be8a-34cd2567326c">
+      <Execution id="995d6ef7-b2fb-44f5-9363-ee79f0ba2ad1" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Update_rejects_invalid_values" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Provider_errors_are_safe(failure: ProviderError, status: 502, code: &quot;address_provider_error&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="33cc31f5-f454-4806-e0bb-6223254eb3d3">
+      <Execution id="07f46053-46d2-4166-a216-1a4f69c19279" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Provider_errors_are_safe" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Valid_request_snapshots_backend_price_and_audit_fields" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="72f0bfa2-64eb-2794-cc57-f11d20203cdc">
+      <Execution id="4bd151eb-91af-48c8-b9dd-ecba04ba4089" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests" name="Valid_request_snapshots_backend_price_and_audit_fields" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Long_query_is_400" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="f863ca75-ff16-003a-79f2-a764fe98d074">
+      <Execution id="22ba12da-c134-465b-98f6-235acc4c8a97" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Long_query_is_400" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Missing_components_remain_null(fixture: &quot;place-details-missing-neighborhood.json&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="ae2703df-dde1-0e01-e93d-525ae977b35d">
+      <Execution id="c527c230-26d7-4978-8736-d738e5ca9555" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Missing_components_remain_null" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Health_is_preserved" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="ac2afad2-1f3c-b953-0c90-adc394c84f75">
+      <Execution id="f5e8c55c-f8c1-414a-ad52-3be650606250" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Health_is_preserved" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Repeated_429_is_rate_limited_after_two_calls" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="b55fc23c-86fa-938d-d7b4-cd9c0a50b746">
+      <Execution id="c9563d94-7239-4fa2-81bc-49966c14ac5e" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Repeated_429_is_rate_limited_after_two_calls" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.OfferEndpointTests.Barber_offer_requires_own_active_request" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="d081765b-8ae0-c72c-2cf6-18794ecf62a7">
+      <Execution id="841c30ac-a832-4647-a928-19ad83a6da2b" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.OfferEndpointTests" name="Barber_offer_requires_own_active_request" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.BarberDetailEndpointTests.Unknown_is_404" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="5a5e6063-c1c9-531a-efcc-0361ef3a1360">
+      <Execution id="be0f448d-9892-4d65-88ef-a475cee2d5df" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.BarberDetailEndpointTests" name="Unknown_is_404" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Service_mode_maps_to_existing_model(input: &quot;both&quot;, expected: &quot;Both&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="9833082d-c209-db43-b3e7-945db5ce90ac">
+      <Execution id="bba0581f-4918-4622-9a89-0ebc825841dc" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Service_mode_maps_to_existing_model" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Unsupported_suggestion_methods_are_405(method: &quot;DELETE&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="2150293d-3bd4-38a5-e4f2-a87ff3bd39bb">
+      <Execution id="a48a404c-f440-4298-b6f8-f2aabeb8019b" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Unsupported_suggestion_methods_are_405" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Mutating_verbs_are_not_supported(method: &quot;POST&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="538bd9e3-c256-7506-67b6-84ba6504223f">
+      <Execution id="a499b479-835c-46e4-8827-86e937ad79e0" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Mutating_verbs_are_not_supported" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Not_found_is_null_and_not_retried" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="251b47c5-8831-d335-468d-9d48c0681966">
+      <Execution id="f537b314-8e4a-4d8c-9a63-d5b629271551" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Not_found_is_null_and_not_retried" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;sort=random&quot;, code: &quot;discovery_invalid_filter&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="5d3b10e6-ff21-51ae-7aed-e8ead7f2efac">
+      <Execution id="18ce2cad-833d-40cc-9053-769b3f667d5a" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Delete_is_authorized_idempotent_preserves_user_and_revokes_sessions" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="a95f4265-7f8e-e66c-a8b3-90d1e0c80cd9">
+      <Execution id="b864f761-2105-4ff7-bbbc-d9b0faf98aa7" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Delete_is_authorized_idempotent_preserves_user_and_revokes_sessions" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.OfferEndpointTests.Counter_can_only_be_resolved_by_owner_customer" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="0e09b443-7c44-63bc-a5f8-044c2176314c">
+      <Execution id="bcc0f620-0aed-4d7c-a518-0508322070be" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.OfferEndpointTests" name="Counter_can_only_be_resolved_by_owner_customer" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_trims_normalizes_and_rotates_version" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="58d0af3f-1561-2e19-afc0-e41e2501633e">
+      <Execution id="93791a1c-45ec-4fc1-a049-57f001c88ddb" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Update_trims_normalizes_and_rotates_version" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_long_and_duplicate_email" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="78a86573-880e-2b36-c8de-b8553b8eec35">
+      <Execution id="c5439567-7984-4503-b8c5-f64d8d0a5449" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Update_rejects_long_and_duplicate_email" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Missing_key_is_controlled" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="a9730b38-8166-a4f9-63b8-e95679302a7e">
+      <Execution id="d12fdae0-1c12-436d-b6e0-681fbeb5767a" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Missing_key_is_controlled" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;page=1&amp;minPrice=20&amp;maxPrice=10&quot;, code: &quot;discovery_invalid_filter&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="c77f9309-79a1-eac6-9fee-419f822e0fef">
+      <Execution id="05dac401-1f80-4900-ab12-bbddec8d67bb" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Provider_errors_are_safe(failure: RateLimited, status: 429, code: &quot;address_search_rate_limited&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="aa0f0899-e5b0-06ff-e59a-183ea88a1edf">
+      <Execution id="05eac35c-4c0d-41bd-8ac5-a26386713c07" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Provider_errors_are_safe" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Working_hours_are_evaluated_in_istanbul_and_require_full_duration" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="d1401262-dffd-22d3-0c8a-5c952a95a7d6">
+      <Execution id="1f0782be-86f9-403d-ba42-5a2d688eb169" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests" name="Working_hours_are_evaluated_in_istanbul_and_require_full_duration" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Invalid_json_is_provider_error" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="4bf39b94-e6f8-5db7-4f53-9e9ac5ece183">
+      <Execution id="9e8aed2e-78dd-4263-a123-af96da80af86" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Invalid_json_is_provider_error" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Same_key_and_payload_returns_same_request_without_duplicate" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="f6490a46-c840-20a2-1b8f-94af3723e5ae">
+      <Execution id="792586a2-643d-453b-8191-e028452bf4be" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests" name="Same_key_and_payload_returns_same_request_without_duplicate" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ClientProfileEndpointTests.Update_rejects_invalid_values(first: &quot; &quot;, last: &quot;Soyad&quot;, email: &quot;a@b.com&quot;, image: &quot;https://cdn.example.com/a.jpg&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="7979783f-4614-036c-a864-15a28bd72d9d">
+      <Execution id="766f9ad4-abde-49cc-bede-c4c087f00206" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ClientProfileEndpointTests" name="Update_rejects_invalid_values" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Provider_errors_are_safe(failure: Unavailable, status: 503, code: &quot;address_search_unavailable&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="3e7991d1-c961-ad91-d9d9-db6fbe01bf01">
+      <Execution id="0605f3f5-edf3-49c6-9f59-b72aa7d534c0" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Provider_errors_are_safe" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Invalid_query_has_safe_code(query: &quot;?lat=41&amp;lng=29&amp;radiusKm=51&amp;page=1&quot;, code: &quot;discovery_invalid_location&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="886d49a8-36b4-5808-c94b-88006984c2dd">
+      <Execution id="0e393595-1971-4913-b9ec-1584c465bbf0" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Invalid_query_has_safe_code" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Http_timeout_becomes_unavailable" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="82d5ca7c-31df-89a1-0ad4-35fd132b44f9">
+      <Execution id="1471a173-5af9-4fa7-b987-521992152fce" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Http_timeout_becomes_unavailable" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests.Duplicate_unknown_and_inactive_services_are_rejected" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="e0e2347d-6273-ce26-5a66-c4987ff7ecea">
+      <Execution id="3cee3dd8-3cba-4986-93d4-53b1726bfb41" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceRequestCreateEndpointTests" name="Duplicate_unknown_and_inactive_services_are_rejected" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.OfferEndpointTests.Same_key_changed_payload_conflicts_and_price_is_validated" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="a81498e0-b42a-bc09-472c-e588fdc319a0">
+      <Execution id="8d36a157-328c-4244-97fe-78d077521e94" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.OfferEndpointTests" name="Same_key_changed_payload_conflicts_and_price_is_validated" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Unsupported_suggestion_methods_are_405(method: &quot;PUT&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="9b548516-d8c3-c092-df28-1d7d75cea35f">
+      <Execution id="c9244c86-6492-46d6-8d0f-c43854680340" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Unsupported_suggestion_methods_are_405" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.HealthEndpointTests.Post_is_rejected_without_executing_health_handler" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="c17a9fb4-870a-54c6-2978-dd1106a872e5">
+      <Execution id="55e47301-2bbd-4a67-b928-893dcd8cfc13" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.HealthEndpointTests" name="Post_is_rejected_without_executing_health_handler" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Suggestion_success_has_exact_contract" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="c9567c34-b76d-326c-711f-70246e6e5a8f">
+      <Execution id="0ad6ce94-bb6b-440b-b99e-0a7241371252" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Suggestion_success_has_exact_contract" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.GooglePlacesProviderTests.Details_maps_all_components_and_minimum_mask" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="f0c186ab-a265-74af-0eef-a7c4659e5e11">
+      <Execution id="4172215a-ad82-4558-863b-5d8d5ff42b90" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.GooglePlacesProviderTests" name="Details_maps_all_components_and_minimum_mask" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.AddressEndpointTests.Details_success_has_exact_contract" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="28dad87c-3a33-3408-cce1-6dcb8f0a3a66">
+      <Execution id="503c56e2-8b4a-44fc-81ab-cafe8360fbad" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.AddressEndpointTests" name="Details_success_has_exact_contract" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.ServiceCatalogTests.Active_category_q_and_order_are_deterministic_and_dto_is_safe" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="c6020264-10d3-3173-8df9-d9abbada9359">
+      <Execution id="f613bfa2-b13e-4014-b13b-1e933c772cb6" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.ServiceCatalogTests" name="Active_category_q_and_order_are_deterministic_and_dto_is_safe" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Search_escapes_wildcards_and_trims(input: &quot;  İstanbul  &quot;, expected: &quot;%İstanbul%&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="df2715a5-8583-c67e-2e1f-f0c2d15643e2">
+      <Execution id="f5a3e070-56a9-4319-b7fa-461a78f408f9" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Search_escapes_wildcards_and_trims" />
+    </UnitTest>
+    <UnitTest name="Berbergelsin.Api.Tests.DiscoveryContractTests.Mutating_verbs_are_not_supported(method: &quot;DELETE&quot;)" storage="d:\berbergelsin\berbergelsinmobileapp-main\backend\berbergelsin.api.tests\bin\release\net8.0\berbergelsin.api.tests.dll" id="25df2c68-c12a-e00b-88b9-2104f1a96ccd">
+      <Execution id="92d5829b-eb05-4321-bdcd-8fad9fcdfe0e" />
+      <TestMethod codeBase="D:\berbergelsin\berbergelsinmobileapp-main\backend\Berbergelsin.Api.Tests\bin\Release\net8.0\Berbergelsin.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Berbergelsin.Api.Tests.DiscoveryContractTests" name="Mutating_verbs_are_not_supported" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="28dad87c-3a33-3408-cce1-6dcb8f0a3a66" executionId="503c56e2-8b4a-44fc-81ab-cafe8360fbad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e328b38f-8fa9-a0b8-0a49-bbe0357f60a1" executionId="d3e56419-8869-45bb-9e5b-3d1b8ed109b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5771c598-39b8-7d30-a92b-d596088162fd" executionId="6143fcfa-742f-4260-8a0a-5a8aa23c7ca0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b799f1a-c3f1-b3d8-1af5-9a69be4bec15" executionId="7c07dd89-0324-4786-af5d-60aa3510932c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0376d762-35fd-1e51-73f4-b0c7050a6349" executionId="f4ee734b-aed8-4388-abad-2d54960af8b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95253959-c303-c800-92d4-39a5e815afea" executionId="2a099dbe-134b-4e7d-8ed1-0c67def23732" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9730b38-8166-a4f9-63b8-e95679302a7e" executionId="d12fdae0-1c12-436d-b6e0-681fbeb5767a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1c4db0b-cd77-59f2-7351-13a122ef9322" executionId="46abde93-20eb-4ef0-bc60-4db68b9e1616" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e50fdeb4-69bd-6089-9e6a-6e77fe6abe9a" executionId="5229d289-9fb0-4af0-aca2-0d520f39ef76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d301cab-795c-5577-72dc-49efeb602e6a" executionId="ef2f34a8-2e65-4c1e-bbfa-3ffb7ff9afb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85dde40d-b7c0-08cd-9ba9-807e18eaf34a" executionId="77efa026-66de-4868-abfd-a77d7153591e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72f0bfa2-64eb-2794-cc57-f11d20203cdc" executionId="4bd151eb-91af-48c8-b9dd-ecba04ba4089" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9d5f9b2-4600-2fdd-be8a-34cd2567326c" executionId="995d6ef7-b2fb-44f5-9363-ee79f0ba2ad1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e39d353-cfc9-ea5b-961c-90b77d28bb87" executionId="70909ca7-a484-4599-a04e-471f898b329a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1978e542-d0dd-fa00-7398-d4fbf53c138e" executionId="f0148b6a-0602-4e01-b168-5a019646cd13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cbf3b3f-d49c-6011-0338-00e4325d52fb" executionId="112fcc1a-9ac7-4f8c-b336-1377682abc18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a81498e0-b42a-bc09-472c-e588fdc319a0" executionId="8d36a157-328c-4244-97fe-78d077521e94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c4211f0-448a-65bc-cf8c-16bbca37fa23" executionId="08af8ef6-5354-4432-905c-5e3e0a404225" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1628ba9-22ac-2b7e-7770-44876628af60" executionId="8ea5d0da-d93d-40d3-9d8a-88752452a2ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d3b10e6-ff21-51ae-7aed-e8ead7f2efac" executionId="18ce2cad-833d-40cc-9053-769b3f667d5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12d27222-77d2-8921-3d17-a294b8ff901c" executionId="e6a1148c-ca15-4a8d-958f-97cdc0c81702" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b55fc23c-86fa-938d-d7b4-cd9c0a50b746" executionId="c9563d94-7239-4fa2-81bc-49966c14ac5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc20b1b7-8b65-dab5-d805-cae52f238da9" executionId="bc693ed1-7847-4718-89d3-71561dad6ec0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0da1d302-dc7b-c1a5-480d-dc3aaf57cb23" executionId="8dfd169b-625a-4c92-99d1-2c341affc945" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f86580ed-7f1a-7430-80f8-af43c8f22102" executionId="22908646-1ad2-4fd6-87b7-72b9af73a1d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a95f4265-7f8e-e66c-a8b3-90d1e0c80cd9" executionId="b864f761-2105-4ff7-bbbc-d9b0faf98aa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="849e750a-ac63-b0ea-b935-1953acffefb9" executionId="17115287-992f-4ba9-8492-d5de190b3f55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0c186ab-a265-74af-0eef-a7c4659e5e11" executionId="4172215a-ad82-4558-863b-5d8d5ff42b90" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d081765b-8ae0-c72c-2cf6-18794ecf62a7" executionId="841c30ac-a832-4647-a928-19ad83a6da2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25df2c68-c12a-e00b-88b9-2104f1a96ccd" executionId="92d5829b-eb05-4321-bdcd-8fad9fcdfe0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2150293d-3bd4-38a5-e4f2-a87ff3bd39bb" executionId="a48a404c-f440-4298-b6f8-f2aabeb8019b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e07d29c-7f68-b153-2b18-cbbdf771b729" executionId="6b67d2cd-a4f7-4280-b90b-48d50999471e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c17a9fb4-870a-54c6-2978-dd1106a872e5" executionId="55e47301-2bbd-4a67-b928-893dcd8cfc13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33cc31f5-f454-4806-e0bb-6223254eb3d3" executionId="07f46053-46d2-4166-a216-1a4f69c19279" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de76fbdc-5999-ce60-93a4-6feb7c386324" executionId="543ac8b4-68db-4957-a476-f1a45883058a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="426cb1bf-d451-7977-feb1-6044b81599d3" executionId="1541a91d-98da-468c-bac0-e1c3e61a06e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a83d23c-a365-04ed-e9c8-14e70343c3e5" executionId="92bb43d4-e0a4-4705-8d30-427b5777e482" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b548516-d8c3-c092-df28-1d7d75cea35f" executionId="c9244c86-6492-46d6-8d0f-c43854680340" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fad17614-f6ef-ab0b-ef28-faaa8709e5d3" executionId="e37baf99-b639-4f42-a83e-797caec3baf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="832c1ad5-aa02-88b0-32b8-daef9032b5fd" executionId="c1bc7025-4b01-44a9-990d-84c646881261" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="001bdaaa-56c7-08f3-39fa-a7b14bbad826" executionId="9bebd910-8ef9-4823-9c5a-c2748100f8ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6490a46-c840-20a2-1b8f-94af3723e5ae" executionId="792586a2-643d-453b-8191-e028452bf4be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bf39b94-e6f8-5db7-4f53-9e9ac5ece183" executionId="9e8aed2e-78dd-4263-a123-af96da80af86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5048e78b-c3de-493b-1659-55f9443ed6f0" executionId="fbf35544-1c19-404d-bc94-d1eb8abc9d22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73a47434-6fdf-7e34-efa3-44b326edfe8b" executionId="802006c8-a36f-4f17-9e24-0624b7f2f5f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8746f231-e7d0-6832-a51c-694b94a42c59" executionId="1adafc55-380f-4415-abd8-02d974c64b63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="282ded30-7f9e-3720-1b2b-fa59a9389763" executionId="128b7850-084c-45a7-af77-e9372fc731eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f91d14a-abe8-9a0c-af92-773f3110cbbb" executionId="209bc599-2821-4da2-8faf-157db1109653" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25528f6b-9142-a0fa-e479-d66dea0e16b6" executionId="6f672512-282c-4cde-a132-7a5b920efa98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d70461cc-7afc-e7ed-8a17-233f885b5603" executionId="ae1a4b8d-9700-4eac-ba27-95ba51765ce8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c25284e4-3e97-fce2-3cb4-43f75d1ad9af" executionId="6471bc73-48f4-4025-8cbb-7c7b6e4235ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="366bbd8c-0192-e4ce-52c2-54e1dd18fc28" executionId="6610c00a-8f90-4ecc-9462-70a83512a4e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37bffa5d-41d4-3b6d-581c-a0dc8f4f6152" executionId="1a3f2582-efc2-416f-920f-db8a9882900f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="456ca1c6-162d-6b8d-3078-5379094d4928" executionId="806466f1-8b26-433c-b4e2-aa72ab751c2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffd6de91-3ee7-176f-b507-1da3263860e8" executionId="7918c9fe-9131-4dfb-af30-0a1ad7726ef6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="251b47c5-8831-d335-468d-9d48c0681966" executionId="f537b314-8e4a-4d8c-9a63-d5b629271551" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e7991d1-c961-ad91-d9d9-db6fbe01bf01" executionId="0605f3f5-edf3-49c6-9f59-b72aa7d534c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcf987f6-714b-4a30-8ce5-c0868f50bd3c" executionId="e2e9bd96-1dc4-4c26-8a0b-6ef3c7e4b5de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58d0af3f-1561-2e19-afc0-e41e2501633e" executionId="93791a1c-45ec-4fc1-a049-57f001c88ddb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97a51d45-5417-0fda-c827-cc409cbea605" executionId="a4968362-ec69-443f-bbbe-aa5e10cb965b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78a86573-880e-2b36-c8de-b8553b8eec35" executionId="c5439567-7984-4503-b8c5-f64d8d0a5449" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a5e6063-c1c9-531a-efcc-0361ef3a1360" executionId="be0f448d-9892-4d65-88ef-a475cee2d5df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d94aebf-50bb-751b-dad9-c389b4ee3a7e" executionId="82cac5c7-bd0d-49ad-81d8-2d26308b2cfd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9833082d-c209-db43-b3e7-945db5ce90ac" executionId="bba0581f-4918-4622-9a89-0ebc825841dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="090357fd-2841-cf69-51da-24c0f68cdb85" executionId="b61c714a-5124-4098-9315-34806a6ccbe1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae2703df-dde1-0e01-e93d-525ae977b35d" executionId="c527c230-26d7-4978-8736-d738e5ca9555" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52a43ee5-5281-a634-a6d2-bab06638b021" executionId="f5921faf-b0c6-4ba0-a591-43c54f6536b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f808a3cb-06a6-1a60-8816-0feba4927564" executionId="37deb941-1c64-490e-8c31-f7a81f1aae5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac2afad2-1f3c-b953-0c90-adc394c84f75" executionId="f5e8c55c-f8c1-414a-ad52-3be650606250" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa0f0899-e5b0-06ff-e59a-183ea88a1edf" executionId="05eac35c-4c0d-41bd-8ac5-a26386713c07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df2715a5-8583-c67e-2e1f-f0c2d15643e2" executionId="f5a3e070-56a9-4319-b7fa-461a78f408f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91fb9dd3-740b-bcd6-fa71-1415b9be6445" executionId="d815e57b-3d76-4321-bf70-6b13846054fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6669ab75-1157-1d91-f2b7-124568dcb483" executionId="2c5a6949-34d2-4c6e-9c24-d05059ab469f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6955f12e-e30f-e0ae-4f22-531c9c43a1db" executionId="8d629cf9-5f18-4f5e-b79f-38258bfda2d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5bed7837-c17e-165b-5f04-8c520b1f5db5" executionId="d542803e-c834-4012-87be-a13e9da5404e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="355dc00a-907b-6804-1bae-b7668688817e" executionId="316c4c2c-d2a0-4848-b87a-965e76bb0b15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfa83b3f-59d5-3215-0c08-640e7ce44b39" executionId="12a18cfc-f815-41a0-b14e-b86a855938d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1401262-dffd-22d3-0c8a-5c952a95a7d6" executionId="1f0782be-86f9-403d-ba42-5a2d688eb169" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f62cc7b5-bc64-0d31-1a32-c312b044864c" executionId="9740760a-3e8d-4829-a242-fdf2a9100bd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e895099-e437-7410-1bb9-6db6883c187f" executionId="7f6c6dac-ff5d-4a29-a978-b6c00cdd17ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a1cbd6c-c111-4f7e-804c-c8aafe4b8fa7" executionId="d2e6ce2b-06f0-47cb-9990-118fe93013c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7979783f-4614-036c-a864-15a28bd72d9d" executionId="766f9ad4-abde-49cc-bede-c4c087f00206" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c6020264-10d3-3173-8df9-d9abbada9359" executionId="f613bfa2-b13e-4014-b13b-1e933c772cb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="886d49a8-36b4-5808-c94b-88006984c2dd" executionId="0e393595-1971-4913-b9ec-1584c465bbf0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9567c34-b76d-326c-711f-70246e6e5a8f" executionId="0ad6ce94-bb6b-440b-b99e-0a7241371252" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d61cbf0-1adc-4183-38b4-03e3423e08dc" executionId="c26e5fc3-7dba-4d47-8afc-a7b04c065dad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d16b751-cf89-1e48-e5a6-db7b85570c5e" executionId="f7562215-e6bb-45dc-86db-ddb4d02f3197" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6066941-998d-d2dc-db35-37b2665b2863" executionId="f0d2f509-7929-4c2e-9851-ebef09bf1bdc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b62abc84-f79e-3b22-6150-6f29e1ed9585" executionId="2c6eb170-4053-4f72-87b8-020a85a92f4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0e2347d-6273-ce26-5a66-c4987ff7ecea" executionId="3cee3dd8-3cba-4986-93d4-53b1726bfb41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="516259bc-0e9e-6f43-7113-60ce66b8a1f4" executionId="f83d01f7-41bc-4d35-8b42-c7d0dbed554d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc04bd76-b971-ee70-5f9b-ac2183057265" executionId="2488ccac-810e-4f45-8887-3cc166d3f011" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae041ec7-7dcf-72e0-a2a0-1a5a4897043d" executionId="2ff53956-47ed-4efc-b525-3e99581936bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="538bd9e3-c256-7506-67b6-84ba6504223f" executionId="a499b479-835c-46e4-8827-86e937ad79e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e73f754-8a4c-bba4-4ae7-4e6e69df3f79" executionId="7f620150-305f-4869-98f2-687723bb3f77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96fc981a-5558-24a6-dd3e-a9449e7e5b01" executionId="a649caa3-5f62-40f0-bff5-8568e486f048" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="749d0273-b34a-22ac-24e6-21f68ff169e0" executionId="1f48754c-162c-46a9-a255-7a931d994425" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c77f9309-79a1-eac6-9fee-419f822e0fef" executionId="05dac401-1f80-4900-ab12-bbddec8d67bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae2ff1a7-4cbd-f94f-e18b-21469e91842a" executionId="81f1e38e-77b6-4a25-9fb1-6553a52c24ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e09b443-7c44-63bc-a5f8-044c2176314c" executionId="bcc0f620-0aed-4d7c-a518-0508322070be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f863ca75-ff16-003a-79f2-a764fe98d074" executionId="22ba12da-c134-465b-98f6-235acc4c8a97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0eb4160-c019-5a83-2546-c90fb76217a4" executionId="8daf78d9-64e5-420c-90a2-4189f7422b00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35c6988d-d6ab-8fb9-de51-a13ace54ae14" executionId="c86fe199-32cc-4fc7-ad8b-e16f25173601" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82d5ca7c-31df-89a1-0ad4-35fd132b44f9" executionId="1471a173-5af9-4fa7-b987-521992152fce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5eb90841-378a-2240-1120-f5e4a34ce307" executionId="56ae3c27-d264-46e7-b9c9-b209547ce1b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7faad936-2355-7b23-20a7-3e7878ae7f11" executionId="db9af5f8-499e-4cab-828a-2e9d8f573099" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Bir Listede Olmayan Sonuçlar" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Yüklenen Tüm Sonuçlar" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="106" executed="106" passed="106" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 8.0.29)&#xD;
+[xUnit.net 00:00:00.06]   Discovering: Berbergelsin.Api.Tests&#xD;
+[xUnit.net 00:00:00.10]   Discovered:  Berbergelsin.Api.Tests&#xD;
+[xUnit.net 00:00:00.11]   Starting:    Berbergelsin.Api.Tests&#xD;
+info: Berbergelsin.Api.Tests.TestAuthHandler[12]&#xD;
+      AuthenticationScheme: Test was challenged.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 7 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 12 entities to in-memory store.&#xD;
+info: Berbergelsin.Api.Tests.ClientProfileTestAuthHandler[12]&#xD;
+      AuthenticationScheme: ClientProfileTest was challenged.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Berbergelsin.Api.Tests.ClientProfileTestAuthHandler[13]&#xD;
+      AuthenticationScheme: ClientProfileTest was forbidden.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 3 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 7 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Berbergelsin.Api.Tests.ClientProfileTestAuthHandler[12]&#xD;
+      AuthenticationScheme: ClientProfileTest was challenged.&#xD;
+info: Berbergelsin.Api.Tests.DetailAuthHandler[13]&#xD;
+      AuthenticationScheme: DetailTest was forbidden.&#xD;
+info: Berbergelsin.Api.Tests.ClientProfileTestAuthHandler[13]&#xD;
+      AuthenticationScheme: ClientProfileTest was forbidden.&#xD;
+info: Berbergelsin.Api.Tests.DetailAuthHandler[12]&#xD;
+      AuthenticationScheme: DetailTest was challenged.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 7 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 3 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 7 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 7 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Berbergelsin.Api.Tests.ClientProfileTestAuthHandler[12]&#xD;
+      AuthenticationScheme: ClientProfileTest was challenged.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 7 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 3 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Berbergelsin.Api.Tests.ClientProfileTestAuthHandler[12]&#xD;
+      AuthenticationScheme: ClientProfileTest was challenged.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 7 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 1 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 3 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 2 entities to in-memory store.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 7 entities to in-memory store.&#xD;
+info: Berbergelsin.Api.Tests.ClientProfileTestAuthHandler[12]&#xD;
+      AuthenticationScheme: ClientProfileTest was challenged.&#xD;
+info: Berbergelsin.Api.Tests.ClientProfileTestAuthHandler[13]&#xD;
+      AuthenticationScheme: ClientProfileTest was forbidden.&#xD;
+info: Microsoft.EntityFrameworkCore.Update[30100]&#xD;
+      Saved 6 entities to in-memory store.&#xD;
+[xUnit.net 00:00:02.06]   Finished:    Berbergelsin.Api.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

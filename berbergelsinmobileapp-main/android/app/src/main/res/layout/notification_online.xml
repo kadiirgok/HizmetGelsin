@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kalıcı çevrimiçi bildirimi — koyu temalı, premium görünüm -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notif_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Üst satır: ikon + başlık + durum -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/notif_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="fitCenter"
+            android:importantForAccessibility="no" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/notif_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HizmetGelsin"
+                android:textColor="#111111"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/notif_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Çevrimiçi"
+                android:textColor="#6B6B6B"
+                android:textSize="13sp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+
+        <!-- Online durum noktası -->
+        <View
+            android:id="@+id/notif_dot"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/online_dot" />
+    </LinearLayout>
+
+    <!-- Alt satır: aksiyon butonları -->
+    <LinearLayout
+        android:id="@+id/notif_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/notif_action_offline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Çevrimdışı Yap"
+            android:textColor="#BA1A1A"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:background="@drawable/action_bg_red"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/notif_action_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Aç"
+            android:textColor="#111111"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:background="@drawable/action_bg_dark"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+# Codemagic CI/CD — Mac'siz iOS build (Berbergelsin)
+#
+# Free tier: 500 build dakikası/ay
+# Setup:
+#   1. https://codemagic.io → GitHub ile login
+#   2. hazarcicekgo/berbergelsinmobileapp repo'sunu bağla
+#   3. "codemagic.yaml" otomatik algılanır
+#   4. Workflow seç + Start build
+#
+# Sertifika gerektirmeyen (kod imzasız) IPA üretir — gerçek iPhone'da
+# çalıştırmak için Sideloadly (Windows) + Apple ID ile sideload edebilirsin
+# (7 gün geçerli, her hafta yenile). Veya $99/yıl Apple Developer ile
+# TestFlight'a yükleyebilirsin.
+#
+# Not: Bundle ID = com.berbergelsin.berbergelsin
+# Backend canlı adresi lib/core/config.dart içinde gömülü
+# (release: https://api.tivigo.online) — ekstra env var gerekmez.
+
+workflows:
+  # ─────────────────────────────────────────────────────────────
+  # iOS Unsigned Build (sideload için IPA)
+  # ─────────────────────────────────────────────────────────────
+  ios-unsigned:
+    name: iOS Unsigned IPA
+    instance_type: mac_mini_m2
+    max_build_duration: 90
+    environment:
+      # pubspec.yaml `sdk: ^3.9.0` istiyor → Flutter 3.35+ (Dart 3.9+);
+      # lokal geliştirme de 3.35.2 ile yapıldı.
+      flutter: 3.35.2
+      xcode: 16.4
+      cocoapods: default
+    scripts:
+      - name: Set up Flutter
+        # precache --ios Flutter SDK + iOS artifact'larını indirir; 3 deneme —
+        # geçici network yavaşlığına karşı dayanıklı.
+        script: |
+          flutter --version
+          for i in 1 2 3; do
+            flutter precache --ios && break
+            echo "Precache attempt $i failed, retrying in 10s..."
+            sleep 10
+          done
+
+      - name: Get Flutter packages
+        script: flutter pub get
+
+      - name: Quality checks
+        script: |
+          dart format --output=none --set-exit-if-changed lib test
+          flutter analyze
+          flutter test
+
+      - name: Pod install
+        # Podfile repo'da yok — flutter build ios ilk çalıştırmada üretir;
+        # yine de varsa güncel tutalım.
+        script: |
+          if [ -f ios/Podfile ]; then
+            (cd ios && pod install --repo-update)
+          else
+            echo "Podfile yok, flutter build üretecek"
+          fi
+
+      - name: Flutter build (unsigned)
+        script: |
+          flutter build ios --release --no-codesign
+
+      - name: Create unsigned IPA
+        script: |
+          cd build/ios/iphoneos
+          mkdir -p Payload
+          cp -r Runner.app Payload/
+          zip -r ../../../Berbergelsin-unsigned.ipa Payload
+          ls -la ../../../Berbergelsin-unsigned.ipa
+
+    artifacts:
+      - Berbergelsin-unsigned.ipa
+
+  # ─────────────────────────────────────────────────────────────
+  # iOS Simulator Build (test için, gerçek cihaza gitmez)
+  # ─────────────────────────────────────────────────────────────
+  ios-simulator:
+    name: iOS Simulator Build
+    instance_type: mac_mini_m2
+    max_build_duration: 30
+    environment:
+      flutter: 3.35.2
+      xcode: 16.4
+    scripts:
+      - flutter pub get
+      - dart format --output=none --set-exit-if-changed lib test
+      - flutter analyze
+      - flutter test
+      - flutter build ios --simulator --debug
+      - cd build/ios/iphonesimulator && zip -r ../../../Berbergelsin-sim.zip Runner.app
+    artifacts:
+      - Berbergelsin-sim.zip
+
+  # ─────────────────────────────────────────────────────────────
+  # Android Release APK (her ihtimale karşı)
+  # ─────────────────────────────────────────────────────────────
+  android-release:
+    name: Android Release APK
+    instance_type: linux_x2
+    max_build_duration: 30
+    environment:
+      flutter: 3.35.2
+      java: 17
+    scripts:
+      - flutter pub get
+      - dart format --output=none --set-exit-if-changed lib test
+      - flutter analyze
+      - flutter test
+      - flutter build apk --release
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
