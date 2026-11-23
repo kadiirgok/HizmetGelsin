@@ -1,6 +1,6 @@
-# BerberGelsin Mobil Uygulaması
+# HizmetGelsin Mobil Uygulaması
 
-BerberGelsin; müşterilerin yakındaki çevrimiçi berberlerden eve hizmet talep etmesini, fiyat teklifi vermesini ve randevuyu canlı takip etmesini sağlayan Flutter uygulamasıdır. Aynı uygulama müşteri, berber ve admin rollerini destekler.
+HizmetGelsin; müşterilerin yakındaki çevrimiçi berberlerden eve hizmet talep etmesini, fiyat teklifi vermesini ve randevuyu canlı takip etmesini sağlayan Flutter uygulamasıdır. Aynı uygulama müşteri, berber ve admin rollerini destekler.
 
 ## Proje yapısı
 
